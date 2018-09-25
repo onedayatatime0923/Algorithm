@@ -27,6 +27,7 @@ class DataBase{
     int& operator[] (const int& n){
       return _order[n];
     }
+    bool larger(const int& x, const int& y){
 
   private:
     AlgParser _parser;

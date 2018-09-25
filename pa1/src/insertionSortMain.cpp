@@ -10,9 +10,11 @@ int main(int argc, char *argv[]){
   DataBase database(argv[1]);
 
 
-  cout<< database[0]<<endl;
-  database[0] = 1;
-  cout<< database[0]<<endl;
+  cout<< database.QuerySize()<<endl;
+  cout<< database.QueryString(0)<<endl;
+  cout<< database.QueryString(1)<<endl;
+  cout<< database.QueryString(2)<<endl;
+  cout<< database.QueryString(3)<<endl;
 
 
 
