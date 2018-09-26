@@ -4,7 +4,7 @@
 
 
 void DataBase::compress(){
-  set<int, intCompare> wordSet(cmp);
+  // set<int, intCompare> wordSet(cmp);
   //for (int i = 0;i < _size; ++i){
     //if((iter = wordSet.find(i)) != wordSet.end())
         //u_long f = it; // error here

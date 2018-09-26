@@ -68,7 +68,7 @@ class DataBase{
       return int(this->QueryString(lhs)[0]) < int(this->QueryString(rhs)[0]);
     };
 
-    intCompare cmp(_parser);
+    // intCompare cmp(_parser);
     AlgParser* _parser;
     vector<Word> _wordlist;
     int* _order;
