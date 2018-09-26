@@ -1,5 +1,5 @@
 
-class DataBase;
+#include "database.h"
 
 class InsertionSorter{
   public:
