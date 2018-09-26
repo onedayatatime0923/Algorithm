@@ -27,24 +27,34 @@ class Word{
     vector<int>* _appearingOrder;
 };
 
+class intCompare{
+  public:
+    intCompare(AlgParser* parser){
+      _parser = parser;
+    }
+    bool operator() (const int& lhs, const int& rhs){
+      return int(_parser->QueryString(lhs)[0]) < int(_parser->QueryString(rhs)[0]);
+    }
+    AlgParser* _parser;
+};
 
 class DataBase{
 	public:
     DataBase(char*  inputFile){
-      _parser.Parse(inputFile);
+      _parser->Parse(inputFile);
     }
 
     int QuerySize(){
-      return _parser.QueryTotalStringCount();
+      return _parser->QueryTotalStringCount();
     }
     string QueryString(const int& n){
-      return _parser.QueryString(n);
+      return _parser->QueryString(n);
     }
     int QueryLineNumber(const int& n){
-      return _parser.QueryLineNumber(n);
+      return _parser->QueryLineNumber(n);
     }
     int QueryWordOrder(const int& n){
-      return _parser.QueryWordOrder(n);
+      return _parser->QueryWordOrder(n);
     }
     int& operator[] (const int& n){
       return _order[n];
@@ -58,7 +68,8 @@ class DataBase{
       return int(this->QueryString(lhs)[0]) < int(this->QueryString(rhs)[0]);
     };
 
-    AlgParser _parser;
+    intCompare cmp(_parser);
+    AlgParser* _parser;
     vector<Word> _wordlist;
     int* _order;
 };
