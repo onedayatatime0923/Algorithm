@@ -13,9 +13,6 @@ int main(int argc, char *argv[]){
   // Display the accumulated time
   cout << "The execution spends " << t.End() << " seconds" << endl;
 
-  Word a(1);
-  Word b(2);
-
   /*
   cout<< database.QuerySize()<<endl;
   cout<< database.QueryString(0)<<endl;

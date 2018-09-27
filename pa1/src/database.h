@@ -11,12 +11,16 @@ class Word{
       _appearingOrder = new vector<int>;
       _appearingOrder->push_back(value);
     };
-    ~Word(){
-      delete _appearingOrder;
-    };
+    Word(const Word &p2){
+      _appearingOrder = p2._appearingOrder;
+      delete p2._appearingOrder;
+    }
     int& operator[] (const int& n){
       return (*_appearingOrder)[n];
     };
+    void add(const int& value){
+      _appearingOrder->push_back(value);
+    }
     void swap(Word& word){
       vector<int>* tmp = this->_appearingOrder;
       this->_appearingOrder = word._appearingOrder;
@@ -27,14 +31,14 @@ class Word{
     vector<int>* _appearingOrder;
 };
 
-class intCompare{
+class IntCompare{
   public:
-    intCompare(AlgParser* parser){
+    IntCompare(AlgParser* parser){
       _parser = parser;
     }
     bool operator() (const int& lhs, const int& rhs){
       return int(_parser->QueryString(lhs)[0]) < int(_parser->QueryString(rhs)[0]);
-    }
+    };
     AlgParser* _parser;
 };
 
@@ -42,6 +46,7 @@ class DataBase{
 	public:
     DataBase(char*  inputFile){
       _parser->Parse(inputFile);
+      compress();
     }
 
     int QuerySize(){
@@ -68,7 +73,6 @@ class DataBase{
       return int(this->QueryString(lhs)[0]) < int(this->QueryString(rhs)[0]);
     };
 
-    // intCompare cmp(_parser);
     AlgParser* _parser;
     vector<Word> _wordlist;
     int* _order;

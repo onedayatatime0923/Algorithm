@@ -32,6 +32,8 @@ INT8_MAX	pa1/src/parser.cpp	62;"	d	file:
 INT8_MIN	pa1/src/parser.cpp	53;"	d	file:
 InsertionSorter	pa1/src/insertionSort.h	/^    InsertionSorter(){};$/;"	f	class:InsertionSorter
 InsertionSorter	pa1/src/insertionSort.h	/^class InsertionSorter{$/;"	c
+IntCompare	pa1/src/database.h	/^    IntCompare(AlgParser* parser){$/;"	f	class:IntCompare
+IntCompare	pa1/src/database.h	/^class IntCompare{$/;"	c
 Parse	pa1/src/parser.cpp	/^void AlgParser::Parse( const string& input_file_name )$/;"	f	class:AlgParser
 QueryLineNumber	pa1/src/database.h	/^    int QueryLineNumber(const int& n){$/;"	f	class:DataBase
 QueryLineNumber	pa1/src/parser.cpp	/^int AlgParser::QueryLineNumber( const int& ith )$/;"	f	class:AlgParser
@@ -45,6 +47,7 @@ REJECT	pa1/src/parser.cpp	440;"	d	file:
 UINT16_MAX	pa1/src/parser.cpp	74;"	d	file:
 UINT32_MAX	pa1/src/parser.cpp	77;"	d	file:
 UINT8_MAX	pa1/src/parser.cpp	71;"	d	file:
+Word	pa1/src/database.h	/^    Word(const Word &p2){$/;"	f	class:Word
 Word	pa1/src/database.h	/^    Word(const int& value){$/;"	f	class:Word
 Word	pa1/src/database.h	/^class Word{$/;"	c
 YYSTATE	pa1/src/parser.cpp	123;"	d	file:
@@ -102,8 +105,9 @@ _DEFINE_PARSER_	pa1/src/parser.h	2;"	d
 _appearingOrder	pa1/src/database.h	/^    vector<int>* _appearingOrder;$/;"	m	class:Word
 _order	pa1/src/database.h	/^    int* _order;$/;"	m	class:DataBase
 _parser	pa1/src/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
-_parser	pa1/src/database.h	/^    AlgParser* _parser;$/;"	m	class:intCompare
+_parser	pa1/src/database.h	/^    AlgParser* _parser;$/;"	m	class:IntCompare
 _wordlist	pa1/src/database.h	/^    vector<Word> _wordlist;$/;"	m	class:DataBase
+add	pa1/src/database.h	/^    void add(const int& value){$/;"	f	class:Word
 begin_clock	pa1/src/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 compress	pa1/src/database.cpp	/^void DataBase::compress(){$/;"	f	class:DataBase
 flex_int16_t	pa1/src/parser.cpp	/^typedef int16_t flex_int16_t;$/;"	t	file:
@@ -119,8 +123,6 @@ flex_uint32_t	pa1/src/parser.cpp	/^typedef unsigned int flex_uint32_t;$/;"	t	fil
 flex_uint8_t	pa1/src/parser.cpp	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
 flex_uint8_t	pa1/src/parser.cpp	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
 intCompare	pa1/src/database.h	/^    bool intCompare(const int& lhs, const int& rhs){$/;"	f	class:DataBase
-intCompare	pa1/src/database.h	/^    intCompare(AlgParser* parser){$/;"	f	class:intCompare
-intCompare	pa1/src/database.h	/^class intCompare{$/;"	c
 larger	pa1/src/database.h	/^    bool larger(const int& x, const int& y){};$/;"	f	class:DataBase
 lex_line_count	pa1/src/parser.cpp	/^int lex_line_count = 1;$/;"	v
 lex_string_vector	pa1/src/parser.cpp	/^vector< AlgString > lex_string_vector;$/;"	v
@@ -130,7 +132,7 @@ m_string	pa1/src/parser.h	/^	string m_string; $/;"	m	class:AlgString
 m_word_number	pa1/src/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 main	pa1/src/insertionSortMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 main	pa1/test.cpp	/^int main(){$/;"	f
-operator ()	pa1/src/database.h	/^    bool operator() (const int& lhs, const int& rhs){$/;"	f	class:intCompare
+operator ()	pa1/src/database.h	/^    bool operator() (const int& lhs, const int& rhs){$/;"	f	class:IntCompare
 operator []	pa1/src/database.h	/^    int& operator[] (const int& n){$/;"	f	class:DataBase
 operator []	pa1/src/database.h	/^    int& operator[] (const int& n){$/;"	f	class:Word
 sort	pa1/src/insertionSort.cpp	/^void InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter
@@ -230,4 +232,3 @@ yytext_ptr	pa1/src/parser.cpp	338;"	d	file:
 yyunput	pa1/src/parser.cpp	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
 yywrap	pa1/src/parser.cpp	/^int yywrap()$/;"	f
 yywrap	pa1/src/parser.cpp	452;"	d	file:
-~Word	pa1/src/database.h	/^    ~Word(){$/;"	f	class:Word
