@@ -4,5 +4,5 @@
 class InsertionSorter{
   public:
     InsertionSorter(){};
-    void sort(DataBase& database);
+    int* sort(DataBase& database);
 };
