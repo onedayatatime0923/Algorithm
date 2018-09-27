@@ -11,14 +11,8 @@ class DataBase{
 	public:
     // constructor
     DataBase(char*  inputFile);
-    // destructor
-    ~DataBase();
     // get order
-    int& operator[] (const int& n);
-    // get wordlist content
-    Word& getWord(const int& n);
-    // get wordlist size
-    int getWordSize();
+    string operator() (const int& n);
     // get stringlist content
     string getString(const int& n);
     // get stringlist size
@@ -31,11 +25,8 @@ class DataBase{
     bool compareLarge(const int& lhs, const int& rhs);
 
   private:
-    void compress();
-
+    string int2string(const int& n);
 
     AlgParser* _parser;
-    vector<Word> _wordlist;
-    int* _order;
 };
 #endif

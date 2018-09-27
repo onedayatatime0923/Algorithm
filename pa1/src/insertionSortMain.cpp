@@ -14,11 +14,10 @@ int main(int argc, char *argv[]){
 
   int * order = sorter.sort(database);
 
-  cout<< database.getWordSize()<<endl;
   cout<< database.getStringSize()<<endl;
-  cout<< order[0] << endl;
-  cout<< order[1] << endl;
-  cout<< order[2] << endl;
+  for(int i = 0; i<database.getStringSize(); ++i){
+    cout<< database(order[i]) << endl;
+  }
 
   
   // Display the accumulated time
