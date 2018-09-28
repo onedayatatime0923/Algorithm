@@ -1,7 +1,8 @@
 
 #ifdef SORT_INSERTION
 #include <iostream>
-#include "database.h"
+// #include <stdio.h>
+#include "../util/database.h"
 #include "../sorter/insertionSort.h"
 
 
