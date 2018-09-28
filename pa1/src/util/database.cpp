@@ -30,7 +30,7 @@ int DataBase::getWordOrder(const int& n){
 }
 
 bool DataBase::compareLarge(const int& lhs, const int& rhs){
-  if (_parser->QueryString(lhs) < _parser->QueryString(rhs)){
+  if (_parser->QueryString(lhs) > _parser->QueryString(rhs)){
     return true;
   }
   else{

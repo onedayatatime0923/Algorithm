@@ -15,7 +15,7 @@ m: CMD  = merge
 i: CMDFLAG = -DSORT_INSERTION
 m: CMDFLAG = -DSORT_MERGE
 
-i m: clean clean all
+i m: all
 
 EXEC     = Sort.$(CMD)
 
