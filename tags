@@ -122,6 +122,7 @@ _DEFINE_PARSER_	pa1/include/parser.h	2;"	d
 _DEFINE_PARSER_	pa1/src/util/parser.h	2;"	d
 _appearingOrder	pa1/include/word.h	/^    mutable vector<int>* _appearingOrder;$/;"	m	class:Word
 _appearingOrder	pa1/src/util/word.h	/^    mutable vector<int>* _appearingOrder;$/;"	m	class:Word
+_database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _parser	pa1/include/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
 _parser	pa1/include/key_compare.h	/^    AlgParser* _parser;$/;"	m	class:KeyCompare
 _parser	pa1/src/util/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
@@ -158,7 +159,7 @@ m_word_number	pa1/include/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 m_word_number	pa1/src/util/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 main	pa1/src/main/insertionMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 main	pa1/src/main/mergeMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
-merge	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::merge(int* i, int* j){$/;"	f	class:MergeSorter
+merge	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){$/;"	f	class:MergeSorter
 operator ()	pa1/include/key_compare.h	/^    bool operator() (const int& lhs, const int& rhs){$/;"	f	class:KeyCompare
 operator ()	pa1/src/util/database.cpp	/^string DataBase::operator() (const int& n){$/;"	f	class:DataBase
 operator ()	pa1/src/util/key_compare.h	/^    bool operator() (const int& lhs, const int& rhs){$/;"	f	class:KeyCompare

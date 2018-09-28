@@ -4,7 +4,6 @@
 
 #include <vector>
 #include "parser.h"
-#include "word.h"
 
 
 class DataBase{
