@@ -11,7 +11,7 @@ int* MergeSorter::sort(DataBase& database){
 int* MergeSorter::sort(const int& i, const int& j){
   if( i < j ){
     int k = (i + j) / 2;
-    int* array = this->merge(this->sort(i, k), k-i, this->sort(k+1,j), j-k-1);
+    int* array = this->merge(this->sort(i, k), k-i+1, this->sort(k+1,j), j-k);
     return array;
   }
   else{
@@ -25,7 +25,15 @@ int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){
   int bIndex = 0;
   int* array = new int[aLen + bLen];
   for(int i = 0; i < aLen + bLen; ++i){
-    if( _database->compareLarge(b[bIndex], a[aIndex]) || bIndex == bLen){
+    if(bIndex == bLen){
+      array[i] = a[aIndex];
+      ++aIndex;
+    }
+    else if(aIndex == aLen){
+      array[i] = b[bIndex];
+      ++bIndex;
+    }
+    else if( _database->compareLarge(b[bIndex], a[aIndex])){
       array[i] = a[aIndex];
       ++aIndex;
     }
@@ -34,7 +42,9 @@ int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){
       ++bIndex;
     };
   };
-  delete[] a;
-  delete[] b;
+  if(aLen==1) delete a;
+  else delete[] a;
+  if(bLen==1) delete b;
+  else delete[] b;
   return array;
 };
