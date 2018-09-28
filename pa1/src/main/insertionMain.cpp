@@ -1,6 +1,7 @@
 
 #ifdef SORT_INSERTION
 #include <iostream>
+#include <stdio.h>
 #include "database.h"
 #include "../sorter/insertionSort.h"
 
@@ -24,6 +25,7 @@ int main(int argc, char *argv[]){
   // Display the accumulated time
   cout << "The execution spends " << t.End() << " seconds" << endl;
 
+  getchar();
   return 0;
   
 }
