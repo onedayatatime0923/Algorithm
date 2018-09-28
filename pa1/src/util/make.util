@@ -1,0 +1,5 @@
+PKGFLAG   =
+EXTHDRS   = database.h key_compare.h parser.h word.h 
+
+include ../Makefile.in
+include ../Makefile.lib
