@@ -43,10 +43,6 @@ InsertionSorter	pa1/include/insertionSort.h	/^    InsertionSorter(){};$/;"	f	cla
 InsertionSorter	pa1/include/insertionSort.h	/^class InsertionSorter{$/;"	c
 InsertionSorter	pa1/src/sorter/insertionSort.h	/^    InsertionSorter(){};$/;"	f	class:InsertionSorter
 InsertionSorter	pa1/src/sorter/insertionSort.h	/^class InsertionSorter{$/;"	c
-KeyCompare	pa1/include/key_compare.h	/^    KeyCompare(AlgParser* parser){$/;"	f	class:KeyCompare
-KeyCompare	pa1/include/key_compare.h	/^class KeyCompare{$/;"	c
-KeyCompare	pa1/src/util/key_compare.h	/^    KeyCompare(AlgParser* parser){$/;"	f	class:KeyCompare
-KeyCompare	pa1/src/util/key_compare.h	/^class KeyCompare{$/;"	c
 LIBFILES	pa1/Makefile	/^LIBFILES = $(addsuffix .a, $(addprefix lib, $(LIBPKGS)))$/;"	m
 LIBPKGS	pa1/Makefile	/^LIBPKGS  = util sorter$/;"	m
 LIBS	pa1/Makefile	/^LIBS     = $(addprefix -l, $(LIBPKGS))$/;"	m
@@ -62,10 +58,6 @@ REJECT	pa1/src/util/parser.cpp	440;"	d	file:
 UINT16_MAX	pa1/src/util/parser.cpp	74;"	d	file:
 UINT32_MAX	pa1/src/util/parser.cpp	77;"	d	file:
 UINT8_MAX	pa1/src/util/parser.cpp	71;"	d	file:
-Word	pa1/include/word.h	/^class Word{$/;"	c
-Word	pa1/src/util/word.cpp	/^Word::Word(const Word &p2){$/;"	f	class:Word
-Word	pa1/src/util/word.cpp	/^Word::Word(const int& value){$/;"	f	class:Word
-Word	pa1/src/util/word.h	/^class Word{$/;"	c
 YYSTATE	pa1/src/util/parser.cpp	123;"	d	file:
 YYTABLES_NAME	pa1/src/util/parser.cpp	1683;"	d	file:
 YY_AT_BOL	pa1/src/util/parser.cpp	323;"	d	file:
@@ -120,14 +112,9 @@ _DEFINE_DATABASE_	pa1/include/database.h	3;"	d
 _DEFINE_DATABASE_	pa1/src/util/database.h	3;"	d
 _DEFINE_PARSER_	pa1/include/parser.h	2;"	d
 _DEFINE_PARSER_	pa1/src/util/parser.h	2;"	d
-_appearingOrder	pa1/include/word.h	/^    mutable vector<int>* _appearingOrder;$/;"	m	class:Word
-_appearingOrder	pa1/src/util/word.h	/^    mutable vector<int>* _appearingOrder;$/;"	m	class:Word
 _database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _parser	pa1/include/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
-_parser	pa1/include/key_compare.h	/^    AlgParser* _parser;$/;"	m	class:KeyCompare
 _parser	pa1/src/util/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
-_parser	pa1/src/util/key_compare.h	/^    AlgParser* _parser;$/;"	m	class:KeyCompare
-add	pa1/src/util/word.cpp	/^void Word::add(const int& value){$/;"	f	class:Word
 begin_clock	pa1/include/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 compareLarge	pa1/src/util/database.cpp	/^bool DataBase::compareLarge(const int& lhs, const int& rhs){$/;"	f	class:DataBase
@@ -160,17 +147,12 @@ m_word_number	pa1/src/util/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 main	pa1/src/main/insertionMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 main	pa1/src/main/mergeMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 merge	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){$/;"	f	class:MergeSorter
-operator ()	pa1/include/key_compare.h	/^    bool operator() (const int& lhs, const int& rhs){$/;"	f	class:KeyCompare
 operator ()	pa1/src/util/database.cpp	/^string DataBase::operator() (const int& n){$/;"	f	class:DataBase
-operator ()	pa1/src/util/key_compare.h	/^    bool operator() (const int& lhs, const int& rhs){$/;"	f	class:KeyCompare
-operator []	pa1/src/util/word.cpp	/^int& Word::operator[] (const int& n){$/;"	f	class:Word
-size	pa1/src/util/word.cpp	/^int Word::size() const{$/;"	f	class:Word
 sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter
 sort	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::sort(DataBase& database){$/;"	f	class:MergeSorter
 sort	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::sort(const int& i, const int& j){$/;"	f	class:MergeSorter
-swap	pa1/src/util/word.cpp	/^void Word::swap(Word& word){$/;"	f	class:Word
 unput	pa1/src/util/parser.cpp	167;"	d	file:
-value	pa1/src/util/word.cpp	/^int Word::value() const{$/;"	f	class:Word
+write	pa1/src/util/database.cpp	/^void DataBase::write(const int* data, char* filename){$/;"	f	class:DataBase
 yy_accept	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_accept[13] =$/;"	v	file:
 yy_at_bol	pa1/src/util/parser.cpp	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
 yy_base	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_base[14] =$/;"	v	file:
@@ -265,4 +247,3 @@ yytext_ptr	pa1/src/util/parser.cpp	338;"	d	file:
 yyunput	pa1/src/util/parser.cpp	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
 yywrap	pa1/src/util/parser.cpp	/^int yywrap()$/;"	f
 yywrap	pa1/src/util/parser.cpp	452;"	d	file:
-~Word	pa1/src/util/word.cpp	/^Word::~Word(){$/;"	f	class:Word
