@@ -33,13 +33,13 @@ int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){
       array[i] = b[bIndex];
       ++bIndex;
     }
-    else if( _database->compareLarge(b[bIndex], a[aIndex])){
-      array[i] = a[aIndex];
-      ++aIndex;
-    }
-    else{
+    else if( _database->compareLarge(a[aIndex], b[bIndex])){
       array[i] = b[bIndex];
       ++bIndex;
+    }
+    else{
+      array[i] = a[aIndex];
+      ++aIndex;
     };
   };
   if(aLen==1) delete a;
