@@ -53,6 +53,19 @@ clean:
 	@echo "Removing $(EXEC)..."
 	@rm -f bin/$(EXEC)
 
-cleanall: clean
+cleanall:
+	@for pkg in $(LIBPKGS); \
+	do \
+		echo "Cleaning $$pkg..."; \
+		cd src/$$pkg; \
+                make -f make.$$pkg --no-print-directory PKGNAME=$$pkg cleanall; \
+                cd ../..; \
+	done
+	@echo "Cleaning $(MAIN)..."
+	@cd src/$(MAIN); make -f make.$(MAIN) --no-print-directory cleanall
+	@echo "Removing $(LIBFILES)..."
+	@cd lib; rm -f $(LIBFILES)
+	@echo "Removing $(EXEC)..."
+	@rm -f bin/$(EXEC)
 	@echo "Removing bin/*..."
 	@rm -f bin/*
