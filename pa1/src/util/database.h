@@ -20,6 +20,8 @@ class DataBase{
     int getLineNumber(const int& n);
     // get string line number
     int getWordOrder(const int& n);
+    // output
+    void write(const int* data, char* file);
 
     bool compareLarge(const int& lhs, const int& rhs);
 

@@ -1,6 +1,7 @@
 
 #include <string>
 #include <sstream>
+#include <fstream>
 #include "database.h"
 
 
@@ -9,7 +10,7 @@ DataBase::DataBase(char*  inputFile){
 }
 
 string DataBase::operator() (const int& n){
-  return _parser->QueryString(n) + ' ' + this->int2string(n);
+  return this->getString(n) + ' ' + this->int2string(n);
 }
 
 string DataBase::getString(const int& n){
@@ -36,6 +37,20 @@ bool DataBase::compareLarge(const int& lhs, const int& rhs){
     return false;
   }
 }
+
+void DataBase::write(const int* data, char* filename){
+  fstream f;
+  f.open(filename, ios::out);//open file
+  if(!f){
+    cout<<"Fail to open file: "<<filename<<endl;
+  }
+  cout<<"File Descriptor: "<<f<<endl;
+  f<< this->getStringSize() << endl;
+  for(int i = 0;i < this->getStringSize(); ++i){
+    f<< this->getString(data[i]) << ' ' << data[i] << endl;
+  }
+  f.close();//close file
+};
 
 string DataBase::int2string(const int& n){
   stringstream ss;
