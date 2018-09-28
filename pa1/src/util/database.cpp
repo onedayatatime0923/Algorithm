@@ -2,7 +2,6 @@
 #include <string>
 #include <sstream>
 #include "database.h"
-#include "key_compare.h"
 
 
 DataBase::DataBase(char*  inputFile){
