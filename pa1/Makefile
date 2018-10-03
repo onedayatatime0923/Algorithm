@@ -69,3 +69,4 @@ cleanall:
 	@rm -f bin/$(EXEC)
 	@echo "Removing bin/*..."
 	@rm -f bin/*
+	@echo "binary file" > bin/READ.md

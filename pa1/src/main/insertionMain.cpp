@@ -26,6 +26,7 @@ int main(int argc, char *argv[]){
   cout << "The execution spends " << t.End() << " seconds" << endl;
 
   getchar();
+
   return 0;
   
 }
