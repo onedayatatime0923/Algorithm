@@ -4,13 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-AlgParser	pa1/include/parser.h	/^class AlgParser$/;"	c
 AlgParser	pa1/src/util/parser.cpp	/^AlgParser::AlgParser(void)$/;"	f	class:AlgParser
 AlgParser	pa1/src/util/parser.h	/^class AlgParser$/;"	c
 AlgParser	test/include/parser.h	/^class AlgParser$/;"	c
 AlgParser	test/src/util/parser.cpp	/^AlgParser::AlgParser(void)$/;"	f	class:AlgParser
 AlgParser	test/src/util/parser.h	/^class AlgParser$/;"	c
-AlgString	pa1/include/parser.h	/^class AlgString{$/;"	c
 AlgString	pa1/src/util/parser.cpp	/^AlgString::AlgString( const string& set_string, const int& set_line_number, const int& set_word_number )$/;"	f	class:AlgString
 AlgString	pa1/src/util/parser.cpp	/^AlgString::AlgString(void)$/;"	f	class:AlgString
 AlgString	pa1/src/util/parser.h	/^class AlgString{$/;"	c
@@ -18,7 +16,6 @@ AlgString	test/include/parser.h	/^class AlgString{$/;"	c
 AlgString	test/src/util/parser.cpp	/^AlgString::AlgString( const string& set_string, const int& set_line_number, const int& set_word_number )$/;"	f	class:AlgString
 AlgString	test/src/util/parser.cpp	/^AlgString::AlgString(void)$/;"	f	class:AlgString
 AlgString	test/src/util/parser.h	/^class AlgString{$/;"	c
-AlgTimer	pa1/include/parser.h	/^class AlgTimer$/;"	c
 AlgTimer	pa1/src/util/parser.cpp	/^AlgTimer::AlgTimer(void){;};$/;"	f	class:AlgTimer
 AlgTimer	pa1/src/util/parser.h	/^class AlgTimer$/;"	c
 AlgTimer	test/include/parser.h	/^class AlgTimer$/;"	c
@@ -36,7 +33,6 @@ CMDFLAG	pa1/Makefile	/^i: CMDFLAG = -DSORT_INSERTION$/;"	m
 CMDFLAG	pa1/Makefile	/^m: CMDFLAG = -DSORT_MERGE$/;"	m
 CMDFLAG	test/Makefile	/^i: CMDFLAG = -DSORT_INSERTION$/;"	m
 CMDFLAG	test/Makefile	/^m: CMDFLAG = -DSORT_MERGE$/;"	m
-DataBase	pa1/include/database.h	/^class DataBase{$/;"	c
 DataBase	pa1/src/util/database.cpp	/^DataBase::DataBase(char*  inputFile){$/;"	f	class:DataBase
 DataBase	pa1/src/util/database.h	/^class DataBase{$/;"	c
 DataBase	test/include/database.h	/^class DataBase{$/;"	c
@@ -74,8 +70,6 @@ INT8_MAX	pa1/src/util/parser.cpp	62;"	d	file:
 INT8_MAX	test/src/util/parser.cpp	62;"	d	file:
 INT8_MIN	pa1/src/util/parser.cpp	53;"	d	file:
 INT8_MIN	test/src/util/parser.cpp	53;"	d	file:
-InsertionSorter	pa1/include/insertionSort.h	/^    InsertionSorter(){};$/;"	f	class:InsertionSorter
-InsertionSorter	pa1/include/insertionSort.h	/^class InsertionSorter{$/;"	c
 InsertionSorter	pa1/src/sorter/insertionSort.h	/^    InsertionSorter(){};$/;"	f	class:InsertionSorter
 InsertionSorter	pa1/src/sorter/insertionSort.h	/^class InsertionSorter{$/;"	c
 InsertionSorter	test/include/insertionSort.h	/^    InsertionSorter(){};$/;"	f	class:InsertionSorter
@@ -212,21 +206,17 @@ YY_USE_CONST	pa1/src/util/parser.cpp	85;"	d	file:
 YY_USE_CONST	pa1/src/util/parser.cpp	91;"	d	file:
 YY_USE_CONST	test/src/util/parser.cpp	85;"	d	file:
 YY_USE_CONST	test/src/util/parser.cpp	91;"	d	file:
-_DEFINE_DATABASE_	pa1/include/database.h	3;"	d
 _DEFINE_DATABASE_	pa1/src/util/database.h	3;"	d
 _DEFINE_DATABASE_	test/include/database.h	3;"	d
 _DEFINE_DATABASE_	test/src/util/database.h	3;"	d
-_DEFINE_PARSER_	pa1/include/parser.h	2;"	d
 _DEFINE_PARSER_	pa1/src/util/parser.h	2;"	d
 _DEFINE_PARSER_	test/include/parser.h	2;"	d
 _DEFINE_PARSER_	test/src/util/parser.h	2;"	d
-_data	pa1/include/database.h	/^    vector<string> _data;$/;"	m	class:DataBase
 _data	pa1/src/util/database.h	/^    vector<string> _data;$/;"	m	class:DataBase
 _data	test/include/database.h	/^    vector<string> _data;$/;"	m	class:DataBase
 _data	test/src/util/database.h	/^    vector<string> _data;$/;"	m	class:DataBase
 _database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _database	test/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
-begin_clock	pa1/include/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 begin_clock	test/include/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 begin_clock	test/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
@@ -268,15 +258,12 @@ lex_string_vector	pa1/src/util/parser.cpp	/^vector< AlgString > lex_string_vecto
 lex_string_vector	test/src/util/parser.cpp	/^vector< AlgString > lex_string_vector;$/;"	v
 lex_word_count	pa1/src/util/parser.cpp	/^int lex_word_count = 1;$/;"	v
 lex_word_count	test/src/util/parser.cpp	/^int lex_word_count = 1;$/;"	v
-m_line_number	pa1/include/parser.h	/^	int m_line_number;$/;"	m	class:AlgString
 m_line_number	pa1/src/util/parser.h	/^	int m_line_number;$/;"	m	class:AlgString
 m_line_number	test/include/parser.h	/^	int m_line_number;$/;"	m	class:AlgString
 m_line_number	test/src/util/parser.h	/^	int m_line_number;$/;"	m	class:AlgString
-m_string	pa1/include/parser.h	/^	string m_string; $/;"	m	class:AlgString
 m_string	pa1/src/util/parser.h	/^	string m_string; $/;"	m	class:AlgString
 m_string	test/include/parser.h	/^	string m_string; $/;"	m	class:AlgString
 m_string	test/src/util/parser.h	/^	string m_string; $/;"	m	class:AlgString
-m_word_number	pa1/include/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 m_word_number	pa1/src/util/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 m_word_number	test/include/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
 m_word_number	test/src/util/parser.h	/^	int m_word_number;$/;"	m	class:AlgString
