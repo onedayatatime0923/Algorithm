@@ -1,9 +1,9 @@
 
-#ifdef SORT_INSERTION
+#ifdef SORT_MERGE
 #include <iostream>
 #include <stdio.h>
-#include "../util/database.h"
-#include "../sorter/insertionSort.h"
+#include "database.h"
+#include "../sorter/mergeSort.h"
 
 
 using namespace std;
@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
   t.Begin();
 
   DataBase database(argv[1]);
-  InsertionSorter sorter;
+  MergeSorter sorter;
 
   int * order = sorter.sort(database);
 
