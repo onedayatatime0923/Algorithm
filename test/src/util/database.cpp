@@ -45,7 +45,7 @@ void DataBase::write(const int* data, char* filename){
   cout<<"File Descriptor: "<<f<<endl;
   f<< _data.size() << endl;
   for(int i = 0;i < _data.size(); ++i){
-    f<< _data[i] << ' ' << data[i] << endl;
+    f<< _data[data[i]] << ' ' << data[i] << endl;
   }
   f.close();//close file
 };

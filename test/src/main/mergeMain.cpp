@@ -18,7 +18,7 @@ int main(int argc, char *argv[]){
   int * order = sorter.sort(database);
 
   // cout<< database.getStringSize()<<endl;
-  // for(int i = 0; i<database.getStringSize(); ++i){
+  // for(int i = 0; i<database.getSize(); ++i){
   //   cout<< database(order[i]) << endl;
   // }
   database.write(order, argv[2]);
