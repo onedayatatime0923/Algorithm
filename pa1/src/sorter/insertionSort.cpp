@@ -2,7 +2,7 @@
 #include "insertionSort.h"
 
 int* InsertionSorter::sort(DataBase& database){
-  int size = database.getStringSize();
+  int size = database.getSize();
   int* order = new int[size];
   order[0] = 0;
   for(int i = 1;i < size; ++i){

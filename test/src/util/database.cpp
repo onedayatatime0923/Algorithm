@@ -6,12 +6,24 @@
 
 
 DataBase::DataBase(char*  inputFile){
-  AlgParser parser;
-  parser.Parse(inputFile);
-  int size = parser.QueryTotalStringCount(); 
-  for(int i = 0; i < size; ++i){
-    _data.push_back(parser.QueryString(i));
-  };
+	int i = 0;
+	string line;
+	ifstream fin;
+
+	fin.open( inputFile );
+	if ( fin.is_open()){
+		while(getline(fin, line)){
+    int prev = 0, pos;
+      while ((pos = line.find_first_of(" ';", prev)) != string::npos) {
+        if (pos > prev){
+          _data.push_back(line.substr(prev, pos-prev));
+        }
+        prev = pos+1;
+      }
+    if (prev < line.length())
+        _data.push_back(line.substr(prev, std::string::npos));
+    }
+  }
 }
 
 string DataBase::operator() (const int& n){
