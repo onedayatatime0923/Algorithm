@@ -16,8 +16,8 @@ ECHO      = /bin/echo
 CFLAGS = -O3 -m32 -Wall $(PKGFLAG)
 CFLAGS = -O3 -Wall $(PKGFLAG)
 CFLAGS = -g -Wall $(PKGFLAG)
-CFLAGS = -g $(PKGFLAG)
 CFLAGS = -O3 $(PKGFLAG)
+CFLAGS = -g $(PKGFLAG)
 
 .PHONY: depend extheader
 
