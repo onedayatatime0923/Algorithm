@@ -6,31 +6,29 @@
 
 
 DataBase::DataBase(char*  inputFile){
-  _parser->Parse(inputFile);
+  AlgParser parser;
+  parser.Parse(inputFile);
+  int size = parser.QueryTotalStringCount(); 
+  for(int i = 0; i < size; ++i){
+    _data.push_back(parser.QueryString(i));
+  };
 }
 
 string DataBase::operator() (const int& n){
-  return this->getString(n) + ' ' + this->int2string(n);
+  return _data[n]+ ' ' + this->int2string(n);
 }
 
 string DataBase::getString(const int& n){
-  return _parser->QueryString(n);
+  return _data[n];
 }
 
-int DataBase::getStringSize(){
-  return _parser->QueryTotalStringCount();
+int DataBase::getSize(){
+  return _data.size();
 }
 
-int DataBase::getLineNumber(const int& n){
-  return _parser->QueryLineNumber(n);
-}
-
-int DataBase::getWordOrder(const int& n){
-  return _parser->QueryWordOrder(n);
-}
 
 bool DataBase::compareLarge(const int& lhs, const int& rhs){
-  if (_parser->QueryString(lhs) > _parser->QueryString(rhs)){
+  if (_data[lhs] > _data[rhs]){
     return true;
   }
   else{
@@ -45,9 +43,9 @@ void DataBase::write(const int* data, char* filename){
     cout<<"Fail to open file: "<<filename<<endl;
   }
   cout<<"File Descriptor: "<<f<<endl;
-  f<< this->getStringSize() << endl;
-  for(int i = 0;i < this->getStringSize(); ++i){
-    f<< this->getString(data[i]) << ' ' << data[i] << endl;
+  f<< _data.size() << endl;
+  for(int i = 0;i < _data.size(); ++i){
+    f<< _data[data[i]] << ' ' << data[i] << endl;
   }
   f.close();//close file
 };
