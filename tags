@@ -220,12 +220,12 @@ _DEFINE_PARSER_	pa1/include/parser.h	2;"	d
 _DEFINE_PARSER_	pa1/src/util/parser.h	2;"	d
 _DEFINE_PARSER_	test/include/parser.h	2;"	d
 _DEFINE_PARSER_	test/src/util/parser.h	2;"	d
+_data	test/include/database.h	/^    vector<string> _data;$/;"	m	class:DataBase
 _data	test/src/util/database.h	/^    vector<string> _data;$/;"	m	class:DataBase
 _database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _database	test/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _parser	pa1/include/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
 _parser	pa1/src/util/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
-_parser	test/include/database.h	/^    AlgParser* _parser;$/;"	m	class:DataBase
 begin_clock	pa1/include/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 begin_clock	test/include/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
