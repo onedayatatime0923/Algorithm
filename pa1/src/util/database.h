@@ -15,11 +15,7 @@ class DataBase{
     // get stringlist content
     string getString(const int& n);
     // get stringlist size
-    int getStringSize();
-    // get string line number
-    int getLineNumber(const int& n);
-    // get string line number
-    int getWordOrder(const int& n);
+    int getSize();
     // output
     void write(const int* data, char* file);
 
@@ -28,6 +24,6 @@ class DataBase{
   private:
     string int2string(const int& n);
 
-    AlgParser* _parser;
+    vector<string> _data;
 };
 #endif

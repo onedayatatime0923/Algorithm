@@ -16,10 +16,6 @@ class DataBase{
     string getString(const int& n);
     // get stringlist size
     int getSize();
-    // get string line number
-    int getLineNumber(const int& n);
-    // get string line number
-    int getWordOrder(const int& n);
     // output
     void write(const int* data, char* file);
 

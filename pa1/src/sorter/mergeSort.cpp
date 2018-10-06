@@ -3,7 +3,7 @@
 
 int* MergeSorter::sort(DataBase& database){
   _database = &database;
-  int size = database.getStringSize();
+  int size = database.getSize();
   int* order = this->sort(0, size-1);
   return order;
 };
