@@ -18,10 +18,6 @@ DataBase::~DataBase(){
   delete[] _data;
 }
 
-string DataBase::operator() (const int& n){
-  return _data[n]+ ' ' + this->int2string(n);
-}
-
 void DataBase::write(const int* data, char* filename){
   fstream f;
   f.open(filename, ios::out);//open file
