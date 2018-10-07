@@ -134,6 +134,7 @@ main	pa1/src/main/insertionMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 main	pa1/src/main/mergeMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 merge	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){$/;"	f	class:MergeSorter
 operator ()	pa1/src/util/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
+sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter
 sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(string* data, int& size){$/;"	f	class:InsertionSorter
 sort	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::sort(DataBase& database){$/;"	f	class:MergeSorter
 sort	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::sort(const int& i, const int& j){$/;"	f	class:MergeSorter
