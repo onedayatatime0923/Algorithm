@@ -11,6 +11,8 @@ class DataBase{
 	public:
     // constructor
     DataBase(char*  inputFile);
+    // destructor
+    ~DataBase();
     // get order
     string operator() (const int& n);
     // get stringlist content
@@ -25,8 +27,7 @@ class DataBase{
     void write(const int* data, char* file);
 
     inline bool compareLarge(const int& lhs, const int& rhs){
-      if (_data[lhs] > _data[rhs]) return true;
-      else return false;
+      return (_data[lhs] > _data[rhs]);
     }
 
   private:
