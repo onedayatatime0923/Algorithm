@@ -33,7 +33,7 @@ int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){
       array[i] = b[bIndex];
       ++bIndex;
     }
-    else if( _database->compareLarge(a[aIndex], b[bIndex])){
+    else if( _database->largerthan(a[aIndex], b[bIndex])){
       array[i] = b[bIndex];
       ++bIndex;
     }
