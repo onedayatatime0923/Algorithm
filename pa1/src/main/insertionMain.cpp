@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
   DataBase database(argv[1]);
   InsertionSorter sorter;
 
-  int * order = sorter.sort(database);
+  int * order = database.sort(sorter.sort);
 
   // cout<< database.getStringSize()<<endl;
   // for(int i = 0; i<database.getStringSize(); ++i){
