@@ -123,7 +123,7 @@ flex_uint8_t	pa1/src/util/parser.cpp	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
 getSize	pa1/src/util/database.h	/^inline int& DataBase::getSize(){$/;"	f	class:DataBase
 getString	pa1/src/util/database.h	/^inline string& DataBase::getString(const int& n){$/;"	f	class:DataBase
-int2string	pa1/src/util/database.h	/^    inline string int2string(const int& n){$/;"	f	class:DataBase
+int2string	pa1/src/util/database.h	/^inline string DataBase::int2string(const int& n){$/;"	f	class:DataBase
 lex_line_count	pa1/src/util/parser.cpp	/^int lex_line_count = 1;$/;"	v
 lex_string_vector	pa1/src/util/parser.cpp	/^vector< AlgString > lex_string_vector;$/;"	v
 lex_word_count	pa1/src/util/parser.cpp	/^int lex_word_count = 1;$/;"	v

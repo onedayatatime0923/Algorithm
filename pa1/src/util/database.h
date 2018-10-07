@@ -25,11 +25,7 @@ class DataBase{
     bool compareLarge(const int& lhs, const int& rhs);
 
   private:
-    inline string int2string(const int& n){
-      stringstream ss;
-      ss << n;
-      return ss.str();
-    }
+    inline string int2string(const int& n);
 
     int _size;
     string* _data;
@@ -48,5 +44,10 @@ inline int& DataBase::getSize(){
 
 inline bool DataBase::compareLarge(const int& lhs, const int& rhs){
   return (_data[lhs] > _data[rhs]);
+}
+inline string DataBase::int2string(const int& n){
+  stringstream ss;
+  ss << n;
+  return ss.str();
 }
 #endif
