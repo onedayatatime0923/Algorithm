@@ -16,19 +16,13 @@ class DataBase{
     // get order
     string operator() (const int& n);
     // get stringlist content
-    inline string& getString(const int& n){
-      return _data[n];
-    }
+    string& getString(const int& n);
     // get stringlist size
-    inline int& getSize(){
-      return _size;
-    }
+    int& getSize();
     // output
     void write(const int* data, char* file);
 
-    inline bool compareLarge(const int& lhs, const int& rhs){
-      return (_data[lhs] > _data[rhs]);
-    }
+    bool compareLarge(const int& lhs, const int& rhs);
 
   private:
     inline string int2string(const int& n){
@@ -40,4 +34,19 @@ class DataBase{
     int _size;
     string* _data;
 };
+
+inline string DataBase::operator() (const int& n){
+  return _data[n]+ ' ' + this->int2string(n);
+}
+inline string& DataBase::getString(const int& n){
+  return _data[n];
+}
+
+inline int& DataBase::getSize(){
+  return _size;
+}
+
+inline bool DataBase::compareLarge(const int& lhs, const int& rhs){
+  return (_data[lhs] > _data[rhs]);
+}
 #endif
