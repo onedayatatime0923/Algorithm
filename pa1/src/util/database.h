@@ -3,6 +3,7 @@
 #define _DEFINE_DATABASE_
 
 #include <vector>
+#include <sstream>
 #include "parser.h"
 
 
@@ -13,17 +14,29 @@ class DataBase{
     // get order
     string operator() (const int& n);
     // get stringlist content
-    string getString(const int& n);
+    inline string& getString(const int& n){
+      return _data[n];
+    }
     // get stringlist size
-    int getSize();
+    inline int& getSize(){
+      return _size;
+    }
     // output
     void write(const int* data, char* file);
 
-    bool compareLarge(const int& lhs, const int& rhs);
+    inline bool compareLarge(const int& lhs, const int& rhs){
+      if (_data[lhs] > _data[rhs]) return true;
+      else return false;
+    }
 
   private:
-    string int2string(const int& n);
+    inline string int2string(const int& n){
+      stringstream ss;
+      ss << n;
+      return ss.str();
+    }
 
-    vector<string> _data;
+    int _size;
+    string* _data;
 };
 #endif
