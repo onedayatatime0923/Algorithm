@@ -14,6 +14,10 @@ DataBase::DataBase(char*  inputFile){
   };
 }
 
+DataBase::~DataBase(){
+  delete[] _data;
+}
+
 string DataBase::operator() (const int& n){
   return _data[n]+ ' ' + this->int2string(n);
 }

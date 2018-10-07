@@ -233,3 +233,4 @@ yytext_ptr	pa1/src/util/parser.cpp	338;"	d	file:
 yyunput	pa1/src/util/parser.cpp	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
 yywrap	pa1/src/util/parser.cpp	/^int yywrap()$/;"	f
 yywrap	pa1/src/util/parser.cpp	452;"	d	file:
+~DataBase	pa1/src/util/database.cpp	/^DataBase::~DataBase(){$/;"	f	class:DataBase
