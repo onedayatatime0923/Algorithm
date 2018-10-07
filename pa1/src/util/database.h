@@ -24,6 +24,8 @@ class DataBase{
 
     bool compareLarge(const int& lhs, const int& rhs);
 
+    int* sort(int* sortFunc(string* data, int& size));
+
   private:
     inline string int2string(const int& n);
 
@@ -49,5 +51,9 @@ inline string DataBase::int2string(const int& n){
   stringstream ss;
   ss << n;
   return ss.str();
+}
+
+inline int* DataBase::sort(int* sortFunc(string* data, int& size)){
+    return sortFunc(_data, _size);
 }
 #endif
