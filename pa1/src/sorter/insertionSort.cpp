@@ -7,13 +7,8 @@ int* InsertionSorter::sort(DataBase& database){
   order[0] = 0;
   for(int i = 1;i < size; ++i){
     int j;
-    for(j = i - 1; j >= 0; --j){
-      if( database.largerthan(order[j],i)){
-        order[j+1] = order[j];
-      }
-      else{
-        break;
-      }
+    for(j = i - 1; j >= 0 && database.largerthan(order[j],i); --j){
+      order[j+1] = order[j];
     };
     order[j+1] = i;
   }
