@@ -22,7 +22,7 @@ class DataBase{
     // output
     void write(const int* data, char* file);
 
-    bool compareLarge(const int& lhs, const int& rhs);
+    bool largerthan(const int& lhs, const int& rhs);
 
     int* sort(int* sortFunc(string* data, int& size));
 
@@ -44,7 +44,7 @@ inline int& DataBase::getSize(){
   return _size;
 }
 
-inline bool DataBase::compareLarge(const int& lhs, const int& rhs){
+inline bool DataBase::largerthan(const int& lhs, const int& rhs){
   return (_data[lhs] > _data[rhs]);
 }
 inline string DataBase::int2string(const int& n){
