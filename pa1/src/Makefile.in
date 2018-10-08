@@ -17,7 +17,7 @@ CFLAGS = -O3 -m32 -Wall $(PKGFLAG)
 CFLAGS = -O3 -Wall $(PKGFLAG)
 CFLAGS = -g -Wall $(PKGFLAG)
 CFLAGS = -g $(PKGFLAG)
-CFLAGS = -O3 -std=c++11 $(PKGFLAG)
+CFLAGS = -O3 $(PKGFLAG)
 
 .PHONY: depend extheader
 
