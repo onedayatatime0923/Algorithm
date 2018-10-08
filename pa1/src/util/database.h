@@ -45,7 +45,7 @@ inline int& DataBase::getSize(){
 }
 
 inline bool DataBase::largerthan(const int& lhs, const int& rhs){
-  return (int(_data[lhs][0]) > int(_data[rhs][0]));
+  return (_data[lhs] > _data[rhs]);
 }
 inline string DataBase::int2string(const int& n){
   stringstream ss;
