@@ -28,6 +28,8 @@ End	pa1/src/util/parser.cpp	/^double AlgTimer::End(void)$/;"	f	class:AlgTimer
 FLEXINT_H	pa1/src/util/parser.cpp	30;"	d	file:
 FLEX_BETA	pa1/src/util/parser.cpp	14;"	d	file:
 FLEX_SCANNER	pa1/src/util/parser.cpp	9;"	d	file:
+HeapSorter	pa1/src/sorter/heapSort.h	/^    HeapSorter(){};$/;"	f	class:HeapSorter
+HeapSorter	pa1/src/sorter/heapSort.h	/^class HeapSorter{$/;"	c
 INITIAL	pa1/src/util/parser.cpp	461;"	d	file:
 INT16_MAX	pa1/src/util/parser.cpp	65;"	d	file:
 INT16_MIN	pa1/src/util/parser.cpp	56;"	d	file:
@@ -108,6 +110,7 @@ _data	pa1/src/util/database.h	/^    string* _data;$/;"	m	class:DataBase
 _database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _size	pa1/src/util/database.h	/^    int _size;$/;"	m	class:DataBase
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
+database	pa1/src/sorter/heapSort.h	/^    DataBase* database;$/;"	m	class:HeapSorter
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef int16_t flex_int16_t;$/;"	t	file:
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef short int flex_int16_t;$/;"	t	file:
 flex_int32_t	pa1/src/util/parser.cpp	/^typedef int flex_int32_t;$/;"	t	file:
