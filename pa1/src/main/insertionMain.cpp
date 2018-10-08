@@ -9,8 +9,6 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-  AlgTimer t;
-  t.Begin();
 
   DataBase database(argv[1]);
   InsertionSorter sorter;
@@ -23,7 +21,6 @@ int main(int argc, char *argv[]){
   // }
   database.write(order, argv[2]);
   // Display the accumulated time
-  cout << "The execution spends " << t.End() << " seconds" << endl;
 
 
   return 0;
