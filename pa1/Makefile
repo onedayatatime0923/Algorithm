@@ -5,17 +5,19 @@ LIBS     = $(addprefix -l, $(LIBPKGS))
 LIBFILES = $(addsuffix .a, $(addprefix lib, $(LIBPKGS)))
 
 dummy:
-	@echo "Error: please use make <i | m | clean | cleanall>"
+	@echo "Error: please use make <i | m | h | clean | cleanall>"
 
 .PHONY : i m
 
 i: CMD  = insertion
 m: CMD  = merge
+h: CMD  = heap
 
 i: CMDFLAG = -DSORT_INSERTION
 m: CMDFLAG = -DSORT_MERGE
+h: CMDFLAG = -DSORT_HEAP
 
-i m: all
+i m h: all
 
 EXEC     = Sort.$(CMD)
 
