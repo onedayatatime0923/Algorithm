@@ -4,7 +4,7 @@
 #include <iostream>
 #include <stdio.h>
 #include "database.h"
-#include "../sorter/heapSort.h"
+#include "../sorter/quickSort.h"
 
 
 using namespace std;
@@ -14,10 +14,11 @@ int main(int argc, char *argv[]){
   t.Begin();
 
   DataBase database(argv[1]);
-  HeapSorter sorter;
+  QuickSorter sorter;
 
   int * order = sorter.sort(database);
 
+  // cout<< "start"<< endl;
   // cout<< database.getSize()<<endl;
   // for(int i = 0; i<database.getSize(); ++i){
   //   cout<< database(order[i]) << endl;

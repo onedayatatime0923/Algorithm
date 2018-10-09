@@ -19,9 +19,11 @@ Begin	pa1/src/util/parser.cpp	/^void AlgTimer::Begin(void)$/;"	f	class:AlgTimer
 CMD	pa1/Makefile	/^h: CMD  = heap$/;"	m
 CMD	pa1/Makefile	/^i: CMD  = insertion$/;"	m
 CMD	pa1/Makefile	/^m: CMD  = merge$/;"	m
+CMD	pa1/Makefile	/^q: CMD  = quick$/;"	m
 CMDFLAG	pa1/Makefile	/^h: CMDFLAG = -DSORT_HEAP$/;"	m
 CMDFLAG	pa1/Makefile	/^i: CMDFLAG = -DSORT_INSERTION$/;"	m
 CMDFLAG	pa1/Makefile	/^m: CMDFLAG = -DSORT_MERGE$/;"	m
+CMDFLAG	pa1/Makefile	/^q: CMDFLAG = -DSORT_QUICK$/;"	m
 DataBase	pa1/include/database.h	/^class DataBase{$/;"	c
 DataBase	pa1/src/util/database.cpp	/^DataBase::DataBase(char*  inputFile){$/;"	f	class:DataBase
 DataBase	pa1/src/util/database.h	/^class DataBase{$/;"	c
@@ -169,7 +171,8 @@ main	pa1/src/main/quickMain.cpp	/^int main(int argc, char *argv[]){$/;"	f
 merge	pa1/src/sorter/mergeSort.cpp	/^int* MergeSorter::merge(int* a, const int& aLen, int* b, const int& bLen){$/;"	f	class:MergeSorter
 operator ()	pa1/include/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
 operator ()	pa1/src/util/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
-partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j){$/;"	f	class:QuickSorter
+partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j, int& q){$/;"	f	class:QuickSorter
+smallerthan	pa1/src/util/database.h	/^inline bool DataBase::smallerthan(const int& lhs, const int& rhs){$/;"	f	class:DataBase
 sort	pa1/include/database.h	/^inline int* DataBase::sort(int* sortFunc(string* data, int& size)){$/;"	f	class:DataBase
 sort	pa1/src/sorter/heapSort.cpp	/^int* HeapSorter::sort(DataBase& database){$/;"	f	class:HeapSorter
 sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter
@@ -179,6 +182,7 @@ sort	pa1/src/sorter/quickSort.cpp	/^int* QuickSorter::sort(DataBase& database){$
 sort	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::sort(const int& i, const int& j){$/;"	f	class:QuickSorter
 sort	pa1/src/util/database.h	/^inline int* DataBase::sort(int* sortFunc(string* data, int& size)){$/;"	f	class:DataBase
 swap	pa1/src/sorter/heapSort.h	/^inline void HeapSorter::swap(const int& i, const int& j){$/;"	f	class:HeapSorter
+swap	pa1/src/sorter/quickSort.h	/^inline void QuickSorter::swap(const int& i, const int& j){$/;"	f	class:QuickSorter
 unput	pa1/src/util/parser.cpp	167;"	d	file:
 write	pa1/src/util/database.cpp	/^void DataBase::write(const int* data, char* filename){$/;"	f	class:DataBase
 yy_accept	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_accept[13] =$/;"	v	file:

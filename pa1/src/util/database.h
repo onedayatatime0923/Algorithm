@@ -24,6 +24,8 @@ class DataBase{
 
     bool largerthan(const int& lhs, const int& rhs);
 
+    bool smallerthan(const int& lhs, const int& rhs);
+
     int* sort(int* sortFunc(string* data, int& size));
 
   private:
@@ -47,6 +49,11 @@ inline int& DataBase::getSize(){
 inline bool DataBase::largerthan(const int& lhs, const int& rhs){
   return (_data[lhs] > _data[rhs]);
 }
+
+inline bool DataBase::smallerthan(const int& lhs, const int& rhs){
+  return (_data[lhs] < _data[rhs]);
+}
+
 inline string DataBase::int2string(const int& n){
   stringstream ss;
   ss << n;
