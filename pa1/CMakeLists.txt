@@ -47,7 +47,7 @@ target_include_directories(LIB
 ############################################################
 
 SET(CMAKE_CXX_FLAGS "-Wall -g")
-SET(CMAKE_CXX_FLAGS "-Wall -O3 -static")
+SET(CMAKE_CXX_FLAGS "-Wall -O3")
 
 ############################################################
 # Create an executable

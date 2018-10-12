@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static   CMakeFiles/i.dir/src/main/insertionMain.cpp.o  -o ../insertionSort -rdynamic ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3   CMakeFiles/i.dir/src/main/insertionMain.cpp.o  -o ../insertionSort -rdynamic ../lib/libLIB.a 

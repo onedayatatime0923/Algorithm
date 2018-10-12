@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static   CMakeFiles/q.dir/src/main/quickMain.cpp.o  -o ../quickSort -rdynamic ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3   CMakeFiles/q.dir/src/main/quickMain.cpp.o  -o ../quickSort -rdynamic ../lib/libLIB.a 
