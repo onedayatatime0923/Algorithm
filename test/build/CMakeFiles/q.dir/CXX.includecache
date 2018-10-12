@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Github/Algorithm/test/src/main/quickMain.cpp
+iostream
+-
+stdio.h
+-
+../util/database.h
+/home/kevin/Github/Algorithm/test/src/util/database.h
+../sorter/quickSort.h
+/home/kevin/Github/Algorithm/test/src/sorter/quickSort.h
+
+/home/kevin/Github/Algorithm/test/src/sorter/quickSort.h
+../util/database.h
+/home/kevin/Github/Algorithm/test/src/util/database.h
+
+/home/kevin/Github/Algorithm/test/src/util/database.h
+vector
+-
+sstream
+-
+parser.h
+/home/kevin/Github/Algorithm/test/src/util/parser.h
+
+/home/kevin/Github/Algorithm/test/src/util/parser.h
+string
+-
+cstdio
+-
+iostream
+-
+
