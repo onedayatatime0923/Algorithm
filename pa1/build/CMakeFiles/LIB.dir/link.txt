@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libLIB.a  CMakeFiles/LIB.dir/src/sorter/heapSort.cpp.o CMakeFiles/LIB.dir/src/sorter/insertionSort.cpp.o CMakeFiles/LIB.dir/src/sorter/mergeSort.cpp.o CMakeFiles/LIB.dir/src/sorter/quickSort.cpp.o CMakeFiles/LIB.dir/src/util/database.cpp.o CMakeFiles/LIB.dir/src/util/parser.cpp.o
-/usr/bin/ranlib ../lib/libLIB.a
