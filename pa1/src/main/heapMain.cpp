@@ -1,9 +1,7 @@
 
-
-#ifdef SORT_HEAP
 #include <iostream>
 #include <stdio.h>
-#include "database.h"
+#include "../util/database.h"
 #include "../sorter/heapSort.h"
 
 
@@ -30,4 +28,3 @@ int main(int argc, char *argv[]){
   return 0;
   
 }
-#endif

@@ -1,5 +1,0 @@
-PKGFLAG   =
-EXTHDRS   = database.h parser.h
-
-include ../Makefile.in
-include ../Makefile.lib
