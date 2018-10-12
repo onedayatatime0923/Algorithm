@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -O3 -static    CMakeFiles/h.dir/src/main/heapMain.cpp.o  -o home/b04901136/Algorithm/pa1/heapSort.bin -rdynamic ../lib/libLIB.a 
