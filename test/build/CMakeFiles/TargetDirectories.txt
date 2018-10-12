@@ -1,7 +1,0 @@
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/edit_cache.dir
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/LIB.dir
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/rebuild_cache.dir
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/i.dir
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/q.dir
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/m.dir
-/home/kevin/Github/Algorithm/test/build/CMakeFiles/h.dir

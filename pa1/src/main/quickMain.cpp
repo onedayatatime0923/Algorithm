@@ -1,9 +1,7 @@
 
-
-#ifdef SORT_QUICK 
 #include <iostream>
 #include <stdio.h>
-#include "database.h"
+#include "../util/database.h"
 #include "../sorter/quickSort.h"
 
 
@@ -31,4 +29,3 @@ int main(int argc, char *argv[]){
   return 0;
   
 }
-#endif
