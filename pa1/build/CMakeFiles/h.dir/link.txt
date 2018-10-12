@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static   CMakeFiles/h.dir/src/main/heapMain.cpp.o  -o /home/kevin/Github/Algorithm/pa1/heapSort ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3 -static   CMakeFiles/h.dir/src/main/heapMain.cpp.o  -o /home/kevin/Github/Algorithm/pa1/heapSort -rdynamic ../lib/libLIB.a 

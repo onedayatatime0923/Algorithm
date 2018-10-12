@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static   CMakeFiles/m.dir/src/main/mergeMain.cpp.o  -o /home/kevin/Github/Algorithm/pa1/mergeSort ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3 -static   CMakeFiles/m.dir/src/main/mergeMain.cpp.o  -o /home/kevin/Github/Algorithm/pa1/mergeSort -rdynamic ../lib/libLIB.a 

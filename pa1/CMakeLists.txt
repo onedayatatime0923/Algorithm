@@ -64,7 +64,7 @@ target_link_libraries(h PRIVATE LIB)
 target_link_libraries(q PRIVATE LIB)
 
 
-set_target_properties(i PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/insertionSort)
-set_target_properties(m PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/mergeSort)
-set_target_properties(h PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/heapSort)
-set_target_properties(q PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/quickSort)
+set_target_properties(i PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/insertionSort.bin)
+set_target_properties(m PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/mergeSort.bin)
+set_target_properties(h PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/heapSort.bin)
+set_target_properties(q PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/quickSort.bin)
