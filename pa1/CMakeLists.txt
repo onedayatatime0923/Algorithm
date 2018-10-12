@@ -19,6 +19,7 @@ set(MAIN    main)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR})
 # lib output directory
 set(LIBRARY_OUTPUT_PATH ${LIBDIR})
+link_directories(${LIB})
 
 # SRC
 foreach(i  ${PACK})
