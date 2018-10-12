@@ -12,4 +12,3 @@ valgrind ./heapSort.bin data/case4.dat ${output}_heap
 echo ""
 time ./quickSort.bin data/case4.dat ${output}_quick
 valgrind ./quickSort.bin data/case4.dat ${output}_quick
-
