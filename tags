@@ -39,9 +39,9 @@ AlgTimer	pa1/src/util/parser.cpp	/^AlgTimer::AlgTimer(void){;};$/;"	f	class:AlgT
 AlgTimer	pa1/src/util/parser.h	/^class AlgTimer$/;"	c
 BEGIN	pa1/src/util/parser.cpp	116;"	d	file:
 Begin	pa1/src/util/parser.cpp	/^void AlgTimer::Begin(void)$/;"	f	class:AlgTimer
-CMAKE_BINARY_DIR	pa1/build/Makefile	/^CMAKE_BINARY_DIR = \/home\/kevin\/Github\/Algorithm\/test\/build$/;"	m
+CMAKE_BINARY_DIR	pa1/build/Makefile	/^CMAKE_BINARY_DIR = \/home\/kevin\/Github\/Algorithm\/pa1\/build$/;"	m
 CMAKE_COMMAND	pa1/build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
-CMAKE_SOURCE_DIR	pa1/build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/kevin\/Github\/Algorithm\/test$/;"	m
+CMAKE_SOURCE_DIR	pa1/build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/kevin\/Github\/Algorithm\/pa1$/;"	m
 COMPILER_ID	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
 COMPILER_ID	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
 COMPILER_ID	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	117;"	d	file:
