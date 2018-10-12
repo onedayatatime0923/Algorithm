@@ -16,7 +16,7 @@ set(MAIN    main)
 ############################################################
 
 # exe output directory
-# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR})
 # lib output directory
 set(LIBRARY_OUTPUT_PATH ${LIBDIR})
 
