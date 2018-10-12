@@ -1,10 +1,10 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/i.dir/src/main/insertionMain.cpp.o"
-  "../insertionSort.pdb"
-  "../insertionSort"
+  "home/b04901136/Algorithm/pa1/insertionSort.pdb"
+  "home/b04901136/Algorithm/pa1/insertionSort"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/i.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/i.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

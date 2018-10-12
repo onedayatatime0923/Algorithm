@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static   CMakeFiles/i.dir/src/main/insertionMain.cpp.o  -o /home/kevin/Github/Algorithm/pa1/insertionSort ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3 -static    CMakeFiles/i.dir/src/main/insertionMain.cpp.o  -o home/b04901136/Algorithm/pa1/insertionSort -rdynamic ../lib/libLIB.a 

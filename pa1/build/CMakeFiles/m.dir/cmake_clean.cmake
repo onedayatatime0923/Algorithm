@@ -1,10 +1,10 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/m.dir/src/main/mergeMain.cpp.o"
-  "../mergeSort.pdb"
-  "../mergeSort"
+  "home/b04901136/Algorithm/pa1/mergeSort.pdb"
+  "home/b04901136/Algorithm/pa1/mergeSort"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/m.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/m.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
