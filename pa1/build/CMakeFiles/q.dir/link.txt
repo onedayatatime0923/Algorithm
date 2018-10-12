@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static    CMakeFiles/q.dir/src/main/quickMain.cpp.o  -o home/b04901136/Algorithm/pa1/quickSort -rdynamic ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3 -static    CMakeFiles/q.dir/src/main/quickMain.cpp.o  -o home/b04901136/Algorithm/pa1/quickSort.bin -rdynamic ../lib/libLIB.a 
