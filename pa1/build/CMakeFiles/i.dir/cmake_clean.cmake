@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/i.dir/src/main/insertionMain.cpp.o"
-  "../insertionSort.bin.pdb"
-  "../insertionSort.bin"
+  "../insertionSort.pdb"
+  "../insertionSort"
 )
 
 # Per-language clean rules from dependency scanning.

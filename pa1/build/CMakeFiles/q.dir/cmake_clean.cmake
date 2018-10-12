@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/q.dir/src/main/quickMain.cpp.o"
-  "../quickSort.bin.pdb"
-  "../quickSort.bin"
+  "../quickSort.pdb"
+  "../quickSort"
 )
 
 # Per-language clean rules from dependency scanning.

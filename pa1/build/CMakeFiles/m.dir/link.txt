@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -static   CMakeFiles/m.dir/src/main/mergeMain.cpp.o  -o ../mergeSort.bin -rdynamic ../lib/libLIB.a 
+/usr/bin/c++   -Wall -O3 -static   CMakeFiles/m.dir/src/main/mergeMain.cpp.o  -o ../mergeSort -rdynamic ../lib/libLIB.a 
