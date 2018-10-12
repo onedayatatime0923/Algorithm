@@ -15,6 +15,9 @@ set(MAIN    main)
 # process variables
 ############################################################
 
+# exe output directory
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
+
 # lib output directory
 set(LIBRARY_OUTPUT_PATH ${LIBDIR})
 
@@ -64,7 +67,7 @@ target_link_libraries(h PRIVATE LIB)
 target_link_libraries(q PRIVATE LIB)
 
 
-set_target_properties(i PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/insertionSort.bin)
-set_target_properties(m PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/mergeSort.bin)
-set_target_properties(h PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/heapSort.bin)
-set_target_properties(q PROPERTIES OUTPUT_NAME ${PROJECT_SOURCE_DIR}/quickSort.bin)
+set_target_properties(i PROPERTIES OUTPUT_NAME insertionSort.bin)
+set_target_properties(m PROPERTIES OUTPUT_NAME mergeSort.bin)
+set_target_properties(h PROPERTIES OUTPUT_NAME heapSort.bin)
+set_target_properties(q PROPERTIES OUTPUT_NAME quickSort.bin)

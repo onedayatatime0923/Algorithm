@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/h.dir/src/main/heapMain.cpp.o"
-  "../heapSort.pdb"
-  "../heapSort"
+  "../heapSort.bin.pdb"
+  "../heapSort.bin"
 )
 
 # Per-language clean rules from dependency scanning.
