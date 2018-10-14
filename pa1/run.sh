@@ -1,14 +1,14 @@
 
-export exe=${1:-1}
+export exe=${1:-data/case4.dat}
 export output=${2:-output}
-time ./insertionSort data/case${1}.dat ${output}_insertion
-valgrind ./insertionSort data/case${1}.dat ${output}_insertion
+time ./insertionSort ${exe} ${output}_insertion
+valgrind ./insertionSort ${exe} ${output}_insertion
 echo ""
-time ./mergeSort data/case${1}.dat ${output}_merge
-valgrind ./mergeSort data/case${1}.dat ${output}_merge
+time ./mergeSort ${exe} ${output}_merge
+valgrind ./mergeSort ${exe} ${output}_merge
 echo ""
-time ./heapSort data/case${1}.dat ${output}_heap
-valgrind ./heapSort data/case${1}.dat ${output}_heap
+time ./heapSort ${exe} ${output}_heap
+valgrind ./heapSort ${exe} ${output}_heap
 echo ""
-time ./quickSort data/case${1}.dat ${output}_quick
-valgrind ./quickSort data/case${1}.dat ${output}_quick
+time ./quickSort ${exe} ${output}_quick
+valgrind ./quickSort ${exe} ${output}_quick
