@@ -452,6 +452,7 @@ _size	pa1/src/sorter/quickSort.h	/^    int        _size;$/;"	m	class:QuickSorter
 _size	pa1/src/util/database.h	/^    int _size;$/;"	m	class:DataBase
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 buildHeap	pa1/src/sorter/heapSort.cpp	/^void HeapSorter::buildHeap(){$/;"	f	class:HeapSorter
+err	pa1/plot/test.py	/^def err(p, x, y):$/;"	f
 features	pa1/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
 features	pa1/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef int16_t flex_int16_t;$/;"	t	file:
@@ -466,6 +467,7 @@ flex_uint32_t	pa1/src/util/parser.cpp	/^typedef uint32_t flex_uint32_t;$/;"	t	fi
 flex_uint32_t	pa1/src/util/parser.cpp	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+fun	pa1/plot/test.py	/^def fun(p, x):$/;"	f
 getSize	pa1/src/util/database.h	/^inline int& DataBase::getSize(){$/;"	f	class:DataBase
 getString	pa1/src/util/database.h	/^inline string& DataBase::getString(const int& n){$/;"	f	class:DataBase
 heapMem	pa1/plot/mem.py	/^heapMem = np.array([0.147886, 0.937044, 7.622129, 16.160612])$/;"	v
@@ -516,6 +518,7 @@ mergeMem	pa1/plot/time.py	/^mergeMem = np.array([0.20507, 1.424468, 13.027761, 2
 mergeTime	pa1/plot/mem.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$/;"	v
 mergeTime	pa1/plot/time.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$/;"	v
 operator ()	pa1/src/util/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
+p0	pa1/plot/test.py	/^p0 = [1,1]   $/;"	v
 partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j, int& q){$/;"	f	class:QuickSorter
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
@@ -536,7 +539,12 @@ swap	pa1/src/sorter/quickSort.h	/^inline void QuickSorter::swap(const int& i, co
 unput	pa1/src/util/parser.cpp	167;"	d	file:
 write	pa1/src/util/database.cpp	/^void DataBase::write(const int* data, char* filename){$/;"	f	class:DataBase
 x	pa1/plot/mem.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
+x	pa1/plot/test.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
 x	pa1/plot/time.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
+x1	pa1/plot/test.py	/^x1 = np.array(x)  $/;"	v
+xishu	pa1/plot/test.py	/^xishu = leastsq(err, p0, args=(x1,y1))$/;"	v
+y	pa1/plot/test.py	/^y = np.array([0.028, 0.299, 19.13, 89.969])$/;"	v
+y1	pa1/plot/test.py	/^y1 = np.array(y)$/;"	v
 yy_accept	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_accept[13] =$/;"	v	file:
 yy_at_bol	pa1/src/util/parser.cpp	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
 yy_base	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_base[14] =$/;"	v	file:
