@@ -6,6 +6,7 @@ CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/dp/dp.hpp
 CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/dp/dpGlobal.hpp
 CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/misc/global.hpp
 CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/util/chordSet.hpp
+CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/util/chordTable.hpp
 CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/util/table.hpp
 CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o: ../src/util/utilGlobal.hpp
 
@@ -14,6 +15,7 @@ CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/io/io.hpp
 CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/io/ioGlobal.hpp
 CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/misc/global.hpp
 CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/util/chordSet.hpp
+CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/util/chordTable.hpp
 CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/util/table.hpp
 CMakeFiles/SRCLIB.dir/src/io/io.cpp.o: ../src/util/utilGlobal.hpp
 
@@ -21,6 +23,11 @@ CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o: ../src/misc/global.hpp
 CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o: ../src/util/chordSet.cpp
 CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o: ../src/util/chordSet.hpp
 CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o: ../src/util/utilGlobal.hpp
+
+CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.o: ../src/misc/global.hpp
+CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.o: ../src/util/chordTable.cpp
+CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.o: ../src/util/chordTable.hpp
+CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.o: ../src/util/utilGlobal.hpp
 
 CMakeFiles/SRCLIB.dir/src/util/table.cpp.o: ../src/misc/global.hpp
 CMakeFiles/SRCLIB.dir/src/util/table.cpp.o: ../src/util/table.cpp

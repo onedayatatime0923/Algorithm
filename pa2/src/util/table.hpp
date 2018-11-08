@@ -9,21 +9,22 @@ class Table{
 public:
     Table                           (const int& n);
     ~Table                          ();
+    void                initialize  (const int&, const int&);
     void                print       ();
-    inline DType& operator()  (const int&, const int&);
-    inline const DType& operator()  (const int&, const int&) const;
+    inline int&       operator()  (const int&, const int&);
+    inline const int& operator()  (const int&, const int&) const;
 private:
     const int   _n;
-    DType**     _data;
+    int**     _data;
 };
 
 template <class DataType>
-inline DType& Table<DataType>::operator() (const int& i, const int& j){
+inline int& Table<DataType>::operator() (const int& i, const int& j){
     return _data[i][j - i + 1];
 };
 
 template <class DataType>
-inline const DType& Table<DataType>::operator() (const int& i, const int& j) const{
+inline const int& Table<DataType>::operator() (const int& i, const int& j) const{
     return _data[i][j - i + 1];
 };
 #endif

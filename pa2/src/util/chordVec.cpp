@@ -1,8 +1,8 @@
 
 #include "chordSet.hpp"
 
-Chord::Chord(const DType& start): _start(start), _end(0){};
-Chord::Chord(const DType& start, const DType& end): _start(start), _end(end){};
+Chord::Chord(const int& start): _start(start), _end(0){};
+Chord::Chord(const int& start, const int& end): _start(start), _end(end){};
 
 void Chord::print() const{
     printf("%d %d\n", _start, _end);
@@ -10,14 +10,14 @@ void Chord::print() const{
 void Chord::write(FILE* file) const{
     fprintf(file, "%d %d\n", _start, _end);
 };
-void ChordSet::push1(const DType& x1, const DType& x2){
+void ChordSet::push1(const int& x1, const int& x2){
     _data.insert(Chord(x1,x2));
 };
-void ChordSet::push2(const DType& x1, const DType& x2){
+void ChordSet::push2(const int& x1, const int& x2){
     _data.insert(Chord(x1,x2));
     _data.insert(Chord(x2,x1));
 };
-const DType& ChordSet::get(const DType& x) const{
+const int& ChordSet::get(const int& x) const{
     auto it = _data.find(x);
     return it->get();
 };

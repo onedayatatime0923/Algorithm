@@ -1,7 +1,7 @@
 
 #include "io.hpp"
 
-void IO::read(const string& fileName, int& n, ChordSet& chordSet){
+void IO::read(const string& fileName, int& n, ChordTable& chordTable){
     FILE* file;
     if((file = fopen(fileName.c_str(), "r")) == NULL) {
         printf("No such file\n");
@@ -10,9 +10,10 @@ void IO::read(const string& fileName, int& n, ChordSet& chordSet){
     fscanf(file, "%d\n", &n);
     n /= 2;
     int l,r;
+    chordTable.set(n);
     for(int i = 0;i < n;++i){
         fscanf(file, "%d %d", &l, &r);
-        chordSet.push2(l,r);
+        chordTable.push(l,r);
     }
     fclose(file);
 };

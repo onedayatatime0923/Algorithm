@@ -9,6 +9,7 @@ CMakeFiles/m.dir/src/main/main.cpp.o: ../src/main/main.cpp
 CMakeFiles/m.dir/src/main/main.cpp.o: ../src/main/mainGlobal.hpp
 CMakeFiles/m.dir/src/main/main.cpp.o: ../src/misc/global.hpp
 CMakeFiles/m.dir/src/main/main.cpp.o: ../src/util/chordSet.hpp
+CMakeFiles/m.dir/src/main/main.cpp.o: ../src/util/chordTable.hpp
 CMakeFiles/m.dir/src/main/main.cpp.o: ../src/util/table.hpp
 CMakeFiles/m.dir/src/main/main.cpp.o: ../src/util/utilGlobal.hpp
 

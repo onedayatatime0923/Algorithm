@@ -3,12 +3,13 @@
 #define _DEFINE_IO_
 #include "ioGlobal.hpp"
 #include "../util/table.hpp"
+#include "../util/chordTable.hpp"
 #include "../util/chordSet.hpp"
 
 class IO{
 public:
     IO(){};
-    void read   (const string&, int&, ChordSet&);
+    void read   (const string&, int&, ChordTable&);
     void write  (const string&, ChordSet&);
 private:
 };

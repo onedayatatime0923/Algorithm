@@ -539,18 +539,19 @@ C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	552;"	d	fil
 C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	555;"	d	file:
 C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	557;"	d	file:
 C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	559;"	d	file:
-Chord	pa2/src/util/chordSet.cpp	/^Chord::Chord(const DType& start): _start(start), _end(0){};$/;"	f	class:Chord
-Chord	pa2/src/util/chordSet.cpp	/^Chord::Chord(const DType& start, const DType& end): _start(start), _end(end){};$/;"	f	class:Chord
+Chord	pa2/src/util/chordSet.cpp	/^Chord::Chord(const int& start): _start(start), _end(0){};$/;"	f	class:Chord
+Chord	pa2/src/util/chordSet.cpp	/^Chord::Chord(const int& start, const int& end): _start(start), _end(end){};$/;"	f	class:Chord
 Chord	pa2/src/util/chordSet.hpp	/^class Chord{$/;"	c
 ChordSet	pa2/src/util/chordSet.hpp	/^    ChordSet    (){};$/;"	f	class:ChordSet
 ChordSet	pa2/src/util/chordSet.hpp	/^class ChordSet{$/;"	c
+ChordTable	pa2/src/util/chordTable.hpp	/^    ChordTable              (){};$/;"	f	class:ChordTable
+ChordTable	pa2/src/util/chordTable.hpp	/^class ChordTable{$/;"	c
 DEC	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	439;"	d	file:
 DEC	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	434;"	d	file:
 DEC	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	472;"	d	file:
 DEC	pa2/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	457;"	d	file:
 DP	pa2/src/dp/dp.hpp	/^    DP(){};$/;"	f	class:DP
 DP	pa2/src/dp/dp.hpp	/^class DP{$/;"	c
-DType	pa2/src/misc/global.hpp	/^typedef int DType;$/;"	t
 DataBase	pa1/src/util/database.cpp	/^DataBase::DataBase(char*  inputFile){$/;"	f	class:DataBase
 DataBase	pa1/src/util/database.h	/^class DataBase{$/;"	c
 ECHO	pa1/src/util/parser.cpp	517;"	d	file:
@@ -822,6 +823,7 @@ YY_USER_ACTION	pa1/src/util/parser.cpp	591;"	d	file:
 YY_USE_CONST	pa1/src/util/parser.cpp	85;"	d	file:
 YY_USE_CONST	pa1/src/util/parser.cpp	91;"	d	file:
 _DEFINE_CHORDSET_	pa2/src/util/chordSet.hpp	3;"	d
+_DEFINE_CHORDTABLE_	pa2/src/util/chordTable.hpp	3;"	d
 _DEFINE_DATABASE_	pa1/src/util/database.h	3;"	d
 _DEFINE_DP_	pa2/src/dp/dp.hpp	3;"	d
 _DEFINE_GLOBAL_	pa2/src/misc/global.hpp	3;"	d
@@ -834,27 +836,29 @@ _DEFINE_TABLE_	pa2/src/util/table.hpp	3;"	d
 _DEFINE_UITLGLOBAL_	pa2/src/util/utilGlobal.hpp	3;"	d
 _data	pa1/src/util/database.h	/^    string* _data;$/;"	m	class:DataBase
 _data	pa2/src/util/chordSet.hpp	/^    set<Chord> _data;$/;"	m	class:ChordSet
-_data	pa2/src/util/table.hpp	/^    DType**     _data;$/;"	m	class:Table
+_data	pa2/src/util/chordTable.hpp	/^    int* _data;$/;"	m	class:ChordTable
+_data	pa2/src/util/table.hpp	/^    int**     _data;$/;"	m	class:Table
 _database	pa1/src/sorter/heapSort.h	/^    DataBase*  _database;$/;"	m	class:HeapSorter
 _database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _database	pa1/src/sorter/quickSort.h	/^    DataBase*  _database;$/;"	m	class:QuickSorter
-_end	pa2/src/util/chordSet.hpp	/^    DType _end;$/;"	m	class:Chord
+_end	pa2/src/util/chordSet.hpp	/^    int _end;$/;"	m	class:Chord
+_n	pa2/src/util/chordTable.hpp	/^    int  _n;$/;"	m	class:ChordTable
 _n	pa2/src/util/table.hpp	/^    const int   _n;$/;"	m	class:Table
 _order	pa1/src/sorter/heapSort.h	/^    int*       _order;$/;"	m	class:HeapSorter
 _order	pa1/src/sorter/quickSort.h	/^    int*       _order;$/;"	m	class:QuickSorter
 _size	pa1/src/sorter/heapSort.h	/^    int        _size;$/;"	m	class:HeapSorter
 _size	pa1/src/sorter/quickSort.h	/^    int        _size;$/;"	m	class:QuickSorter
 _size	pa1/src/util/database.h	/^    int _size;$/;"	m	class:DataBase
-_start	pa2/src/util/chordSet.hpp	/^    DType _start;$/;"	m	class:Chord
+_start	pa2/src/util/chordSet.hpp	/^    int _start;$/;"	m	class:Chord
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 buildHeap	pa1/src/sorter/heapSort.cpp	/^void HeapSorter::buildHeap(){$/;"	f	class:HeapSorter
 const	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
-construct	pa2/src/dp/dp.cpp	/^void DP::construct(ChordSet& chordSet, Table<DType>& cost, Table<DType>& record, const int& n){$/;"	f	class:DP
+construct	pa2/src/dp/dp.cpp	/^void DP::construct(ChordTable& chordTable, Table<int>& cost, Table<int>& record, const int& n){$/;"	f	class:DP
 features	pa1/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
 features	pa1/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
 features	pa2/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
 features	pa2/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
-find	pa2/src/dp/dp.cpp	/^void DP::find(Table<DType>& record, const int& i, const int& j, ChordSet& answer){$/;"	f	class:DP
+find	pa2/src/dp/dp.cpp	/^void DP::find(Table<int>& record, const int& i, const int& j, ChordSet& answer){$/;"	f	class:DP
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef int16_t flex_int16_t;$/;"	t	file:
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef short int flex_int16_t;$/;"	t	file:
 flex_int32_t	pa1/src/util/parser.cpp	/^typedef int flex_int32_t;$/;"	t	file:
@@ -867,8 +871,9 @@ flex_uint32_t	pa1/src/util/parser.cpp	/^typedef uint32_t flex_uint32_t;$/;"	t	fi
 flex_uint32_t	pa1/src/util/parser.cpp	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
-get	pa2/src/util/chordSet.cpp	/^const DType& ChordSet::get(const DType& x) const{$/;"	f	class:ChordSet
-get	pa2/src/util/chordSet.hpp	/^inline const DType& Chord::get() const{$/;"	f	class:Chord
+get	pa2/src/util/chordSet.cpp	/^const int& ChordSet::get(const int& x) const{$/;"	f	class:ChordSet
+get	pa2/src/util/chordSet.hpp	/^inline const int& Chord::get() const{$/;"	f	class:Chord
+get	pa2/src/util/chordTable.cpp	/^const int& ChordTable::get(const int& x) const{$/;"	f	class:ChordTable
 getSize	pa1/src/util/database.h	/^inline int& DataBase::getSize(){$/;"	f	class:DataBase
 getString	pa1/src/util/database.h	/^inline string& DataBase::getString(const int& n){$/;"	f	class:DataBase
 heapMem	pa1/plot/mem.py	/^heapMem = np.array([0.147886, 0.937044, 7.622129, 16.160612])$/;"	v
@@ -910,6 +915,7 @@ info_version	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char c
 info_version	pa2/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
 info_version_internal	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v
 info_version_internal	pa2/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v
+initialize	pa2/src/util/table.cpp	/^void Table<DataType>::initialize(const int& layer, const int& x){$/;"	f	class:Table
 insertionMem	pa1/plot/mem.py	/^insertionMem = np.array([0.147886, 0.937044, 7.622129, 16.160612])$/;"	v
 insertionMem	pa1/plot/time.py	/^insertionMem = np.array([0.147886, 0.937044, 7.622129, 16.160612])$/;"	v
 insertionTime	pa1/plot/mem.py	/^insertionTime = np.array([0.028, 0.299, 19.13, 89.969])$/;"	v
@@ -943,15 +949,17 @@ mergeMem	pa1/plot/time.py	/^mergeMem = np.array([0.20507, 1.424468, 13.027761, 2
 mergeTime	pa1/plot/mem.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$/;"	v
 mergeTime	pa1/plot/time.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$/;"	v
 operator ()	pa1/src/util/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
-operator ()	pa2/src/util/table.hpp	/^inline DType& Table<DataType>::operator() (const int& i, const int& j){$/;"	f	class:Table
-operator ()	pa2/src/util/table.hpp	/^inline const DType& Table<DataType>::operator() (const int& i, const int& j) const{$/;"	f	class:Table
+operator ()	pa2/src/util/table.hpp	/^inline const int& Table<DataType>::operator() (const int& i, const int& j) const{$/;"	f	class:Table
+operator ()	pa2/src/util/table.hpp	/^inline int& Table<DataType>::operator() (const int& i, const int& j){$/;"	f	class:Table
 operator <	pa2/src/util/chordSet.hpp	/^inline bool Chord::operator< (const Chord& rhs) const{$/;"	f	class:Chord
 partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j, int& q){$/;"	f	class:QuickSorter
 print	pa2/src/util/chordSet.cpp	/^void Chord::print() const{$/;"	f	class:Chord
 print	pa2/src/util/chordSet.cpp	/^void ChordSet::print(){$/;"	f	class:ChordSet
+print	pa2/src/util/chordTable.cpp	/^void ChordTable::print(){$/;"	f	class:ChordTable
 print	pa2/src/util/table.cpp	/^void Table<DataType>::print(){$/;"	f	class:Table
-push1	pa2/src/util/chordSet.cpp	/^void ChordSet::push1(const DType& x1, const DType& x2){$/;"	f	class:ChordSet
-push2	pa2/src/util/chordSet.cpp	/^void ChordSet::push2(const DType& x1, const DType& x2){$/;"	f	class:ChordSet
+push	pa2/src/util/chordTable.cpp	/^void ChordTable::push(const int& x1, const int& x2){$/;"	f	class:ChordTable
+push1	pa2/src/util/chordSet.cpp	/^void ChordSet::push1(const int& x1, const int& x2){$/;"	f	class:ChordSet
+push2	pa2/src/util/chordSet.cpp	/^void ChordSet::push2(const int& x1, const int& x2){$/;"	f	class:ChordSet
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
@@ -960,7 +968,8 @@ quickMem	pa1/plot/mem.py	/^quickMem = np.array([0.147886, 0.937044, 7.622129, 16
 quickMem	pa1/plot/time.py	/^quickMem = np.array([0.147886, 0.937044, 7.622129, 16.160612])$/;"	v
 quickTime	pa1/plot/mem.py	/^quickTime = np.array([0.016, 0.039, 0.265, 0.54])$/;"	v
 quickTime	pa1/plot/time.py	/^quickTime = np.array([0.016, 0.039, 0.265, 0.54])$/;"	v
-read	pa2/src/io/io.cpp	/^void IO::read(const string& fileName, int& n, ChordSet& chordSet){$/;"	f	class:IO
+read	pa2/src/io/io.cpp	/^void IO::read(const string& fileName, int& n, ChordTable& chordTable){$/;"	f	class:IO
+set	pa2/src/util/chordTable.cpp	/^void ChordTable::set(const int& n){$/;"	f	class:ChordTable
 smallerthan	pa1/src/util/database.h	/^inline bool DataBase::smallerthan(const int& lhs, const int& rhs){$/;"	f	class:DataBase
 sort	pa1/src/sorter/heapSort.cpp	/^int* HeapSorter::sort(DataBase& database){$/;"	f	class:HeapSorter
 sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter

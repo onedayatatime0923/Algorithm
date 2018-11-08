@@ -1,9 +1,9 @@
 
 #include "dp.hpp"
 
-void DP::construct(ChordSet& chordSet, Table<DType>& cost, Table<DType>& record, const int& n){
+void DP::construct(ChordTable& chordTable, Table<int>& cost, Table<int>& record, const int& n){
     for(int j = 0;j < 2*n;++j){
-        DType k = chordSet.get(j);
+        int k = chordTable.get(j);
         for(int i = 0;i < j;++i){
             if(i <= k && k<= j - 1 and (cost(i,k-1) + 1 + cost(k+1,j-1)) > cost(i,j-1)){
                 cost(i,j) = cost(i,k-1) + 1 + cost(k+1,j-1);
@@ -16,8 +16,8 @@ void DP::construct(ChordSet& chordSet, Table<DType>& cost, Table<DType>& record,
         }
     }
 };
-void DP::find(Table<DType>& record, const int& i, const int& j, ChordSet& answer){
-    DType k = record(i,j);
+void DP::find(Table<int>& record, const int& i, const int& j, ChordSet& answer){
+    int k = record(i,j);
     if(k == -1){
         find(record, i, j - 1, answer);
     }

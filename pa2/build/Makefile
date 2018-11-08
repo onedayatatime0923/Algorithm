@@ -244,6 +244,33 @@ src/util/chordSet.cpp.s:
 	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.s
 .PHONY : src/util/chordSet.cpp.s
 
+src/util/chordTable.o: src/util/chordTable.cpp.o
+
+.PHONY : src/util/chordTable.o
+
+# target to build an object file
+src/util/chordTable.cpp.o:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.o
+.PHONY : src/util/chordTable.cpp.o
+
+src/util/chordTable.i: src/util/chordTable.cpp.i
+
+.PHONY : src/util/chordTable.i
+
+# target to preprocess a source file
+src/util/chordTable.cpp.i:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.i
+.PHONY : src/util/chordTable.cpp.i
+
+src/util/chordTable.s: src/util/chordTable.cpp.s
+
+.PHONY : src/util/chordTable.s
+
+# target to generate assembly for a file
+src/util/chordTable.cpp.s:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.s
+.PHONY : src/util/chordTable.cpp.s
+
 src/util/table.o: src/util/table.cpp.o
 
 .PHONY : src/util/table.o
@@ -293,6 +320,9 @@ help:
 	@echo "... src/util/chordSet.o"
 	@echo "... src/util/chordSet.i"
 	@echo "... src/util/chordSet.s"
+	@echo "... src/util/chordTable.o"
+	@echo "... src/util/chordTable.i"
+	@echo "... src/util/chordTable.s"
 	@echo "... src/util/table.o"
 	@echo "... src/util/table.i"
 	@echo "... src/util/table.s"

@@ -6,23 +6,23 @@
 
 class Chord{
 public:
-    Chord                           (const DType&);
-    Chord                           (const DType&, const DType&);
+    Chord                           (const int&);
+    Chord                           (const int&, const int&);
     inline bool         operator<   (const Chord&) const;
-    inline const DType& get         () const;
+    inline const int& get         () const;
     void                print       () const;
     void                write       (FILE*) const;
 private:
-    DType _start;
-    DType _end;
+    int _start;
+    int _end;
 };
 
 class ChordSet{
 public:
     ChordSet    (){};
-    void            push2  (const DType&, const DType&);
-    void            push1  (const DType&, const DType&);
-    const DType&    get    (const DType&) const;
+    void            push2  (const int&, const int&);
+    void            push1  (const int&, const int&);
+    const int&    get    (const int&) const;
     void            print  ();
     void            write  (FILE*);
 private:
@@ -31,7 +31,7 @@ private:
 inline bool Chord::operator< (const Chord& rhs) const{
     return _start < rhs._start;
 };
-inline const DType& Chord::get() const{
+inline const int& Chord::get() const{
     return _end;
 };
 

@@ -9,6 +9,8 @@
 /home/kevin/Github/Algorithm/pa2/src/dp/dp.hpp
 dpGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/dp/dpGlobal.hpp
+../util/chordTable.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordTable.hpp
 ../util/chordSet.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
 ../util/table.hpp
@@ -23,6 +25,8 @@ ioGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/io/ioGlobal.hpp
 ../util/table.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/table.hpp
+../util/chordTable.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordTable.hpp
 ../util/chordSet.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
 
@@ -37,6 +41,10 @@ mainGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/dp/dp.hpp
 ../io/io.hpp
 /home/kevin/Github/Algorithm/pa2/src/io/io.hpp
+../io/io.hpp
+/home/kevin/Github/Algorithm/pa2/src/io/io.hpp
+../util/chordTable.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordTable.hpp
 ../util/chordSet.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
 ../util/table.hpp
@@ -63,6 +71,10 @@ memory
 -
 
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+utilGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/util/chordTable.hpp
 utilGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
 
