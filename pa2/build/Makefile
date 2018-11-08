@@ -217,33 +217,6 @@ src/main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/src/main/main.cpp.s
 .PHONY : src/main/main.cpp.s
 
-src/util/chordSet.o: src/util/chordSet.cpp.o
-
-.PHONY : src/util/chordSet.o
-
-# target to build an object file
-src/util/chordSet.cpp.o:
-	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o
-.PHONY : src/util/chordSet.cpp.o
-
-src/util/chordSet.i: src/util/chordSet.cpp.i
-
-.PHONY : src/util/chordSet.i
-
-# target to preprocess a source file
-src/util/chordSet.cpp.i:
-	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.i
-.PHONY : src/util/chordSet.cpp.i
-
-src/util/chordSet.s: src/util/chordSet.cpp.s
-
-.PHONY : src/util/chordSet.s
-
-# target to generate assembly for a file
-src/util/chordSet.cpp.s:
-	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.s
-.PHONY : src/util/chordSet.cpp.s
-
 src/util/chordTable.o: src/util/chordTable.cpp.o
 
 .PHONY : src/util/chordTable.o
@@ -270,6 +243,33 @@ src/util/chordTable.s: src/util/chordTable.cpp.s
 src/util/chordTable.cpp.s:
 	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.s
 .PHONY : src/util/chordTable.cpp.s
+
+src/util/chordVec.o: src/util/chordVec.cpp.o
+
+.PHONY : src/util/chordVec.o
+
+# target to build an object file
+src/util/chordVec.cpp.o:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordVec.cpp.o
+.PHONY : src/util/chordVec.cpp.o
+
+src/util/chordVec.i: src/util/chordVec.cpp.i
+
+.PHONY : src/util/chordVec.i
+
+# target to preprocess a source file
+src/util/chordVec.cpp.i:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordVec.cpp.i
+.PHONY : src/util/chordVec.cpp.i
+
+src/util/chordVec.s: src/util/chordVec.cpp.s
+
+.PHONY : src/util/chordVec.s
+
+# target to generate assembly for a file
+src/util/chordVec.cpp.s:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordVec.cpp.s
+.PHONY : src/util/chordVec.cpp.s
 
 src/util/table.o: src/util/table.cpp.o
 
@@ -317,12 +317,12 @@ help:
 	@echo "... src/main/main.o"
 	@echo "... src/main/main.i"
 	@echo "... src/main/main.s"
-	@echo "... src/util/chordSet.o"
-	@echo "... src/util/chordSet.i"
-	@echo "... src/util/chordSet.s"
 	@echo "... src/util/chordTable.o"
 	@echo "... src/util/chordTable.i"
 	@echo "... src/util/chordTable.s"
+	@echo "... src/util/chordVec.o"
+	@echo "... src/util/chordVec.i"
+	@echo "... src/util/chordVec.s"
 	@echo "... src/util/table.o"
 	@echo "... src/util/table.i"
 	@echo "... src/util/table.s"

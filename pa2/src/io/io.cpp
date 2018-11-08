@@ -17,7 +17,7 @@ void IO::read(const string& fileName, int& n, ChordTable& chordTable){
     }
     fclose(file);
 };
-void IO::write(const string& fileName, ChordSet& answer){
+void IO::write(const string& fileName, ChortVec& answer){
     FILE* file;
     file = fopen(fileName.c_str(), "w");
     answer.write(file);

@@ -4,13 +4,13 @@
 #include "ioGlobal.hpp"
 #include "../util/table.hpp"
 #include "../util/chordTable.hpp"
-#include "../util/chordSet.hpp"
+#include "../util/chordVec.hpp"
 
 class IO{
 public:
     IO(){};
     void read   (const string&, int&, ChordTable&);
-    void write  (const string&, ChordSet&);
+    void write  (const string&, ChortVec&);
 private:
 };
 #endif

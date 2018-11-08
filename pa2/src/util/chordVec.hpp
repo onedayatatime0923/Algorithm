@@ -1,15 +1,13 @@
 
-#ifndef _DEFINE_CHORDSET_
-#define _DEFINE_CHORDSET_
+#ifndef _DEFINE_CHORDVEC_
+#define _DEFINE_CHORDVEC_
 
 #include "utilGlobal.hpp"
 
 class Chord{
 public:
-    Chord                           (const int&);
     Chord                           (const int&, const int&);
     inline bool         operator<   (const Chord&) const;
-    inline const int& get         () const;
     void                print       () const;
     void                write       (FILE*) const;
 private:
@@ -17,22 +15,18 @@ private:
     int _end;
 };
 
-class ChordSet{
+class ChortVec{
 public:
-    ChordSet    (){};
-    void            push2  (const int&, const int&);
-    void            push1  (const int&, const int&);
-    const int&    get    (const int&) const;
-    void            print  ();
-    void            write  (FILE*);
+    ChortVec                (){};
+    void            push    (const int&, const int&);
+    void            set     ();
+    void            print   ();
+    void            write   (FILE*);
 private:
-    set<Chord> _data;
+    vector<Chord> _data;
 };
 inline bool Chord::operator< (const Chord& rhs) const{
     return _start < rhs._start;
-};
-inline const int& Chord::get() const{
-    return _end;
 };
 
 #endif

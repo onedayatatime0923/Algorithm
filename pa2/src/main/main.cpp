@@ -4,14 +4,14 @@
 #include "../io/io.hpp"
 #include "../io/io.hpp"
 #include "../util/chordTable.hpp"
-#include "../util/chordSet.hpp"
+#include "../util/chordVec.hpp"
 #include "../util/table.hpp"
 
 int main(int argc, const char **argv){
     int n;
     IO io;
     ChordTable chordTable;
-    ChordSet answer;
+    ChortVec answer;
     io.read(argv[1], n, chordTable);
 
     Table<int> cost(n);
@@ -26,7 +26,8 @@ int main(int argc, const char **argv){
 
     DP::find(record, 0, 2*n - 1, answer);
 
-    // io.write(argv[2], answer);
+    answer.print();
+    io.write(argv[2], answer);
 
     // answer.print();
     // cost.print();

@@ -539,13 +539,12 @@ C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	552;"	d	fil
 C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	555;"	d	file:
 C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	557;"	d	file:
 C_DIALECT	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	559;"	d	file:
-Chord	pa2/src/util/chordSet.cpp	/^Chord::Chord(const int& start): _start(start), _end(0){};$/;"	f	class:Chord
-Chord	pa2/src/util/chordSet.cpp	/^Chord::Chord(const int& start, const int& end): _start(start), _end(end){};$/;"	f	class:Chord
-Chord	pa2/src/util/chordSet.hpp	/^class Chord{$/;"	c
-ChordSet	pa2/src/util/chordSet.hpp	/^    ChordSet    (){};$/;"	f	class:ChordSet
-ChordSet	pa2/src/util/chordSet.hpp	/^class ChordSet{$/;"	c
+Chord	pa2/src/util/chordVec.cpp	/^Chord::Chord(const int& start, const int& end): _start(start), _end(end){};$/;"	f	class:Chord
+Chord	pa2/src/util/chordVec.hpp	/^class Chord{$/;"	c
 ChordTable	pa2/src/util/chordTable.hpp	/^    ChordTable              (){};$/;"	f	class:ChordTable
 ChordTable	pa2/src/util/chordTable.hpp	/^class ChordTable{$/;"	c
+ChortVec	pa2/src/util/chordVec.hpp	/^    ChortVec                (){};$/;"	f	class:ChortVec
+ChortVec	pa2/src/util/chordVec.hpp	/^class ChortVec{$/;"	c
 DEC	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	439;"	d	file:
 DEC	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	434;"	d	file:
 DEC	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	472;"	d	file:
@@ -822,8 +821,8 @@ YY_TYPEDEF_YY_SIZE_T	pa1/src/util/parser.cpp	175;"	d	file:
 YY_USER_ACTION	pa1/src/util/parser.cpp	591;"	d	file:
 YY_USE_CONST	pa1/src/util/parser.cpp	85;"	d	file:
 YY_USE_CONST	pa1/src/util/parser.cpp	91;"	d	file:
-_DEFINE_CHORDSET_	pa2/src/util/chordSet.hpp	3;"	d
 _DEFINE_CHORDTABLE_	pa2/src/util/chordTable.hpp	3;"	d
+_DEFINE_CHORDVEC_	pa2/src/util/chordVec.hpp	3;"	d
 _DEFINE_DATABASE_	pa1/src/util/database.h	3;"	d
 _DEFINE_DP_	pa2/src/dp/dp.hpp	3;"	d
 _DEFINE_GLOBAL_	pa2/src/misc/global.hpp	3;"	d
@@ -835,13 +834,13 @@ _DEFINE_PARSER_	pa1/src/util/parser.h	2;"	d
 _DEFINE_TABLE_	pa2/src/util/table.hpp	3;"	d
 _DEFINE_UITLGLOBAL_	pa2/src/util/utilGlobal.hpp	3;"	d
 _data	pa1/src/util/database.h	/^    string* _data;$/;"	m	class:DataBase
-_data	pa2/src/util/chordSet.hpp	/^    set<Chord> _data;$/;"	m	class:ChordSet
 _data	pa2/src/util/chordTable.hpp	/^    int* _data;$/;"	m	class:ChordTable
+_data	pa2/src/util/chordVec.hpp	/^    vector<Chord> _data;$/;"	m	class:ChortVec
 _data	pa2/src/util/table.hpp	/^    int**     _data;$/;"	m	class:Table
 _database	pa1/src/sorter/heapSort.h	/^    DataBase*  _database;$/;"	m	class:HeapSorter
 _database	pa1/src/sorter/mergeSort.h	/^  DataBase* _database;$/;"	m	class:MergeSorter
 _database	pa1/src/sorter/quickSort.h	/^    DataBase*  _database;$/;"	m	class:QuickSorter
-_end	pa2/src/util/chordSet.hpp	/^    int _end;$/;"	m	class:Chord
+_end	pa2/src/util/chordVec.hpp	/^    int _end;$/;"	m	class:Chord
 _n	pa2/src/util/chordTable.hpp	/^    int  _n;$/;"	m	class:ChordTable
 _n	pa2/src/util/table.hpp	/^    const int   _n;$/;"	m	class:Table
 _order	pa1/src/sorter/heapSort.h	/^    int*       _order;$/;"	m	class:HeapSorter
@@ -849,7 +848,7 @@ _order	pa1/src/sorter/quickSort.h	/^    int*       _order;$/;"	m	class:QuickSort
 _size	pa1/src/sorter/heapSort.h	/^    int        _size;$/;"	m	class:HeapSorter
 _size	pa1/src/sorter/quickSort.h	/^    int        _size;$/;"	m	class:QuickSorter
 _size	pa1/src/util/database.h	/^    int _size;$/;"	m	class:DataBase
-_start	pa2/src/util/chordSet.hpp	/^    int _start;$/;"	m	class:Chord
+_start	pa2/src/util/chordVec.hpp	/^    int _start;$/;"	m	class:Chord
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 buildHeap	pa1/src/sorter/heapSort.cpp	/^void HeapSorter::buildHeap(){$/;"	f	class:HeapSorter
 const	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
@@ -858,7 +857,7 @@ features	pa1/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"
 features	pa1/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
 features	pa2/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
 features	pa2/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
-find	pa2/src/dp/dp.cpp	/^void DP::find(Table<int>& record, const int& i, const int& j, ChordSet& answer){$/;"	f	class:DP
+find	pa2/src/dp/dp.cpp	/^void DP::find(Table<int>& record, const int& i, const int& j, ChortVec& answer){$/;"	f	class:DP
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef int16_t flex_int16_t;$/;"	t	file:
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef short int flex_int16_t;$/;"	t	file:
 flex_int32_t	pa1/src/util/parser.cpp	/^typedef int flex_int32_t;$/;"	t	file:
@@ -871,8 +870,6 @@ flex_uint32_t	pa1/src/util/parser.cpp	/^typedef uint32_t flex_uint32_t;$/;"	t	fi
 flex_uint32_t	pa1/src/util/parser.cpp	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
 flex_uint8_t	pa1/src/util/parser.cpp	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
-get	pa2/src/util/chordSet.cpp	/^const int& ChordSet::get(const int& x) const{$/;"	f	class:ChordSet
-get	pa2/src/util/chordSet.hpp	/^inline const int& Chord::get() const{$/;"	f	class:Chord
 get	pa2/src/util/chordTable.cpp	/^const int& ChordTable::get(const int& x) const{$/;"	f	class:ChordTable
 getSize	pa1/src/util/database.h	/^inline int& DataBase::getSize(){$/;"	f	class:DataBase
 getString	pa1/src/util/database.h	/^inline string& DataBase::getString(const int& n){$/;"	f	class:DataBase
@@ -951,15 +948,14 @@ mergeTime	pa1/plot/time.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$
 operator ()	pa1/src/util/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
 operator ()	pa2/src/util/table.hpp	/^inline const int& Table<DataType>::operator() (const int& i, const int& j) const{$/;"	f	class:Table
 operator ()	pa2/src/util/table.hpp	/^inline int& Table<DataType>::operator() (const int& i, const int& j){$/;"	f	class:Table
-operator <	pa2/src/util/chordSet.hpp	/^inline bool Chord::operator< (const Chord& rhs) const{$/;"	f	class:Chord
+operator <	pa2/src/util/chordVec.hpp	/^inline bool Chord::operator< (const Chord& rhs) const{$/;"	f	class:Chord
 partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j, int& q){$/;"	f	class:QuickSorter
-print	pa2/src/util/chordSet.cpp	/^void Chord::print() const{$/;"	f	class:Chord
-print	pa2/src/util/chordSet.cpp	/^void ChordSet::print(){$/;"	f	class:ChordSet
 print	pa2/src/util/chordTable.cpp	/^void ChordTable::print(){$/;"	f	class:ChordTable
+print	pa2/src/util/chordVec.cpp	/^void Chord::print() const{$/;"	f	class:Chord
+print	pa2/src/util/chordVec.cpp	/^void ChortVec::print(){$/;"	f	class:ChortVec
 print	pa2/src/util/table.cpp	/^void Table<DataType>::print(){$/;"	f	class:Table
 push	pa2/src/util/chordTable.cpp	/^void ChordTable::push(const int& x1, const int& x2){$/;"	f	class:ChordTable
-push1	pa2/src/util/chordSet.cpp	/^void ChordSet::push1(const int& x1, const int& x2){$/;"	f	class:ChordSet
-push2	pa2/src/util/chordSet.cpp	/^void ChordSet::push2(const int& x1, const int& x2){$/;"	f	class:ChordSet
+push	pa2/src/util/chordVec.cpp	/^void ChortVec::push(const int& x1, const int& x2){$/;"	f	class:ChortVec
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
@@ -970,6 +966,7 @@ quickTime	pa1/plot/mem.py	/^quickTime = np.array([0.016, 0.039, 0.265, 0.54])$/;
 quickTime	pa1/plot/time.py	/^quickTime = np.array([0.016, 0.039, 0.265, 0.54])$/;"	v
 read	pa2/src/io/io.cpp	/^void IO::read(const string& fileName, int& n, ChordTable& chordTable){$/;"	f	class:IO
 set	pa2/src/util/chordTable.cpp	/^void ChordTable::set(const int& n){$/;"	f	class:ChordTable
+set	pa2/src/util/chordVec.cpp	/^void ChortVec::set(){$/;"	f	class:ChortVec
 smallerthan	pa1/src/util/database.h	/^inline bool DataBase::smallerthan(const int& lhs, const int& rhs){$/;"	f	class:DataBase
 sort	pa1/src/sorter/heapSort.cpp	/^int* HeapSorter::sort(DataBase& database){$/;"	f	class:HeapSorter
 sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter
@@ -983,9 +980,9 @@ swap	pa1/src/sorter/quickSort.h	/^inline void QuickSorter::swap(const int& i, co
 unput	pa1/src/util/parser.cpp	167;"	d	file:
 volatile	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	11;"	d	file:
 write	pa1/src/util/database.cpp	/^void DataBase::write(const int* data, char* filename){$/;"	f	class:DataBase
-write	pa2/src/io/io.cpp	/^void IO::write(const string& fileName, ChordSet& answer){$/;"	f	class:IO
-write	pa2/src/util/chordSet.cpp	/^void Chord::write(FILE* file) const{$/;"	f	class:Chord
-write	pa2/src/util/chordSet.cpp	/^void ChordSet::write(FILE* file){$/;"	f	class:ChordSet
+write	pa2/src/io/io.cpp	/^void IO::write(const string& fileName, ChortVec& answer){$/;"	f	class:IO
+write	pa2/src/util/chordVec.cpp	/^void Chord::write(FILE* file) const{$/;"	f	class:Chord
+write	pa2/src/util/chordVec.cpp	/^void ChortVec::write(FILE* file){$/;"	f	class:ChortVec
 x	pa1/plot/mem.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
 x	pa1/plot/time.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
 yy_accept	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_accept[13] =$/;"	v	file:

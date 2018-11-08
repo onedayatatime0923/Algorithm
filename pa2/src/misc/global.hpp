@@ -2,7 +2,7 @@
 #ifndef _DEFINE_GLOBAL_
 #define _DEFINE_GLOBAL_
 
-
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>

@@ -16,14 +16,13 @@ void DP::construct(ChordTable& chordTable, Table<int>& cost, Table<int>& record,
         }
     }
 };
-void DP::find(Table<int>& record, const int& i, const int& j, ChordSet& answer){
+void DP::find(Table<int>& record, const int& i, const int& j, ChortVec& answer){
     int k = record(i,j);
     if(k == -1){
         find(record, i, j - 1, answer);
     }
     else if(k >= 0){
-        if(j < k) answer.push1(j,k);
-        else answer.push1(k,j);
+        answer.push(j,k);
         find(record, i, k - 1, answer);
         find(record, k + 1, j - 1, answer);
     }

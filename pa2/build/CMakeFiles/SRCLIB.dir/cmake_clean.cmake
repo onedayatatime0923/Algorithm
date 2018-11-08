@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o"
   "CMakeFiles/SRCLIB.dir/src/io/io.cpp.o"
-  "CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o"
   "CMakeFiles/SRCLIB.dir/src/util/chordTable.cpp.o"
+  "CMakeFiles/SRCLIB.dir/src/util/chordVec.cpp.o"
   "CMakeFiles/SRCLIB.dir/src/util/table.cpp.o"
   "../lib/libSRCLIB.pdb"
   "../lib/libSRCLIB.a"
