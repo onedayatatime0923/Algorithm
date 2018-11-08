@@ -25,6 +25,7 @@ int main(int argc, const char **argv){
     DP::construct(chordTable, cost, record, n);
 
     DP::find(record, 0, 2*n - 1, answer);
+    answer.set();
 
     answer.print();
     io.write(argv[2], answer);
