@@ -13,7 +13,6 @@ public:
     static void construct(ChordTable&, Table<int>&, Table<int>&, const int&);
 
     static void find(Table<int>&, const int&, const int&, ChortVec&);
-private:
 
 };
 
