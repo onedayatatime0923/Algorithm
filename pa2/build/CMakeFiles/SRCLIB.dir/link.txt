@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libSRCLIB.a  CMakeFiles/SRCLIB.dir/src/io/io.cpp.o CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.o
+/usr/bin/ranlib ../lib/libSRCLIB.a

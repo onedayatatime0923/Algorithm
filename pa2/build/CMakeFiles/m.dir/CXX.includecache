@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Github/Algorithm/pa2/src/main/main.cpp
+mainGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/main/mainGlobal.hpp
+../util/chordSet.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/main/mainGlobal.hpp
+../misc/global.hpp
+/home/kevin/Github/Algorithm/pa2/src/misc/global.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/misc/global.hpp
+iostream
+-
+string
+-
+vector
+-
+map
+-
+set
+-
+utility
+-
+memory
+-
+
+/home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+utilGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
+../misc/global.hpp
+/home/kevin/Github/Algorithm/pa2/src/misc/global.hpp
+
