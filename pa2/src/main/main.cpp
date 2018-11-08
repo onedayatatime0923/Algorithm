@@ -1,17 +1,37 @@
 
 #include "mainGlobal.hpp"
+#include "../dp/dp.hpp"
+#include "../io/io.hpp"
 #include "../util/chordSet.hpp"
+#include "../util/table.hpp"
 
 int main(int argc, const char **argv){
+    int n;
+    IO io;
     ChordSet chordSet;
-    chordSet.push(1,2);
-    chordSet.push(0,4);
-    chordSet.push(3,5);
-    chordSet.print();
-    // printf(" %d\n", chordSet.get(1));
-    // printf(" %d\n", chordSet.get(2));
-    // printf(" %d\n", chordSet.get(0));
-    // printf(" %d\n", chordSet.get(4));
-    // printf(" %d\n", chordSet.get(3));
-    // printf(" %d\n", chordSet.get(5));
+    ChordSet answer;
+    io.read(argv[1], n, chordSet);
+
+    Table<DType> cost(n);
+    for(int i = 0;i < 2*n + 1;++i){
+        cost(i,i-1) = 0;
+    }
+    Table<DType> record(n);
+    for(int i = 0;i < 2*n;++i){
+        record(i,i) = -2;
+    }
+    for(int i = 0;i < 2*n + 1;++i){
+        record(i,i-1) = -2;
+    }
+    // Dynamic Programming
+    DP::construct(chordSet, cost, record, n);
+
+    DP::find(record, 0, 2*n - 1, answer);
+
+    io.write(argv[2], answer);
+
+    answer.print();
+    // cost.print();
+    // record.print();
+    // chordSet.print();
 }

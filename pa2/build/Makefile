@@ -136,6 +136,33 @@ m/fast:
 	$(MAKE) -f CMakeFiles/m.dir/build.make CMakeFiles/m.dir/build
 .PHONY : m/fast
 
+src/dp/dp.o: src/dp/dp.cpp.o
+
+.PHONY : src/dp/dp.o
+
+# target to build an object file
+src/dp/dp.cpp.o:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.o
+.PHONY : src/dp/dp.cpp.o
+
+src/dp/dp.i: src/dp/dp.cpp.i
+
+.PHONY : src/dp/dp.i
+
+# target to preprocess a source file
+src/dp/dp.cpp.i:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.i
+.PHONY : src/dp/dp.cpp.i
+
+src/dp/dp.s: src/dp/dp.cpp.s
+
+.PHONY : src/dp/dp.s
+
+# target to generate assembly for a file
+src/dp/dp.cpp.s:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/dp/dp.cpp.s
+.PHONY : src/dp/dp.cpp.s
+
 src/io/io.o: src/io/io.cpp.o
 
 .PHONY : src/io/io.o
@@ -217,6 +244,33 @@ src/util/chordSet.cpp.s:
 	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/chordSet.cpp.s
 .PHONY : src/util/chordSet.cpp.s
 
+src/util/table.o: src/util/table.cpp.o
+
+.PHONY : src/util/table.o
+
+# target to build an object file
+src/util/table.cpp.o:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/table.cpp.o
+.PHONY : src/util/table.cpp.o
+
+src/util/table.i: src/util/table.cpp.i
+
+.PHONY : src/util/table.i
+
+# target to preprocess a source file
+src/util/table.cpp.i:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/table.cpp.i
+.PHONY : src/util/table.cpp.i
+
+src/util/table.s: src/util/table.cpp.s
+
+.PHONY : src/util/table.s
+
+# target to generate assembly for a file
+src/util/table.cpp.s:
+	$(MAKE) -f CMakeFiles/SRCLIB.dir/build.make CMakeFiles/SRCLIB.dir/src/util/table.cpp.s
+.PHONY : src/util/table.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -227,6 +281,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... SRCLIB"
 	@echo "... m"
+	@echo "... src/dp/dp.o"
+	@echo "... src/dp/dp.i"
+	@echo "... src/dp/dp.s"
 	@echo "... src/io/io.o"
 	@echo "... src/io/io.i"
 	@echo "... src/io/io.s"
@@ -236,6 +293,9 @@ help:
 	@echo "... src/util/chordSet.o"
 	@echo "... src/util/chordSet.i"
 	@echo "... src/util/chordSet.s"
+	@echo "... src/util/table.o"
+	@echo "... src/util/table.i"
+	@echo "... src/util/table.s"
 .PHONY : help
 
 

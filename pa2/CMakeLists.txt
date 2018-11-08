@@ -9,7 +9,7 @@ set(BASEPATH    ${PROJECT_SOURCE_DIR})
 set(INCPATH     ${BASEPATH}/include)
 set(LIBPATH     ${BASEPATH}/lib)
 SET(SRCPATH     ${BASEPATH}/src)
-set(PACK        io misc util)
+set(PACK        dp io misc util)
 set(MAIN        main)
 ############################################################
 # Create compile flags

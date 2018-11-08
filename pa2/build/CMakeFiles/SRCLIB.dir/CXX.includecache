@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/kevin/Github/Algorithm/pa2/src/dp/dp.cpp
+dp.hpp
+/home/kevin/Github/Algorithm/pa2/src/dp/dp.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/dp/dp.hpp
+dpGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/dp/dpGlobal.hpp
+../util/chordSet.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+../util/table.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/table.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/dp/dpGlobal.hpp
+../misc/global.hpp
+/home/kevin/Github/Algorithm/pa2/src/misc/global.hpp
+
 /home/kevin/Github/Algorithm/pa2/src/io/io.cpp
 io.hpp
 /home/kevin/Github/Algorithm/pa2/src/io/io.hpp
@@ -45,6 +61,10 @@ chordSet.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
 utilGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/util/table.cpp
+table.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/table.hpp
 
 /home/kevin/Github/Algorithm/pa2/src/util/table.hpp
 utilGlobal.hpp

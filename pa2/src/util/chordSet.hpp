@@ -11,6 +11,7 @@ public:
     inline bool         operator<   (const Chord&) const;
     inline const DType& get         () const;
     void                print       () const;
+    void                write       (FILE*) const;
 private:
     DType _start;
     DType _end;
@@ -19,9 +20,11 @@ private:
 class ChordSet{
 public:
     ChordSet    (){};
-    void            push   (const DType&, const DType&);
+    void            push2  (const DType&, const DType&);
+    void            push1  (const DType&, const DType&);
     const DType&    get    (const DType&) const;
     void            print  ();
+    void            write  (FILE*);
 private:
     set<Chord> _data;
 };

@@ -548,6 +548,8 @@ DEC	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	439;"	d	file:
 DEC	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	434;"	d	file:
 DEC	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	472;"	d	file:
 DEC	pa2/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	457;"	d	file:
+DP	pa2/src/dp/dp.hpp	/^    DP(){};$/;"	f	class:DP
+DP	pa2/src/dp/dp.hpp	/^class DP{$/;"	c
 DType	pa2/src/misc/global.hpp	/^typedef int DType;$/;"	t
 DataBase	pa1/src/util/database.cpp	/^DataBase::DataBase(char*  inputFile){$/;"	f	class:DataBase
 DataBase	pa1/src/util/database.h	/^class DataBase{$/;"	c
@@ -821,7 +823,9 @@ YY_USE_CONST	pa1/src/util/parser.cpp	85;"	d	file:
 YY_USE_CONST	pa1/src/util/parser.cpp	91;"	d	file:
 _DEFINE_CHORDSET_	pa2/src/util/chordSet.hpp	3;"	d
 _DEFINE_DATABASE_	pa1/src/util/database.h	3;"	d
+_DEFINE_DP_	pa2/src/dp/dp.hpp	3;"	d
 _DEFINE_GLOBAL_	pa2/src/misc/global.hpp	3;"	d
+_DEFINE_IOGLOBAL_	pa2/src/dp/dpGlobal.hpp	4;"	d
 _DEFINE_IOGLOBAL_	pa2/src/io/ioGlobal.hpp	3;"	d
 _DEFINE_IO_	pa2/src/io/io.hpp	3;"	d
 _DEFINE_MAINRGLOBAL_	pa2/src/main/mainGlobal.hpp	3;"	d
@@ -845,10 +849,12 @@ _start	pa2/src/util/chordSet.hpp	/^    DType _start;$/;"	m	class:Chord
 begin_clock	pa1/src/util/parser.h	/^	long begin_clock;$/;"	m	class:AlgTimer
 buildHeap	pa1/src/sorter/heapSort.cpp	/^void HeapSorter::buildHeap(){$/;"	f	class:HeapSorter
 const	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+construct	pa2/src/dp/dp.cpp	/^void DP::construct(ChordSet& chordSet, Table<DType>& cost, Table<DType>& record, const int& n){$/;"	f	class:DP
 features	pa1/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
 features	pa1/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
 features	pa2/build/CMakeFiles/feature_tests.c	/^  const char features[] = {"\\n"$/;"	v
 features	pa2/build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	v
+find	pa2/src/dp/dp.cpp	/^void DP::find(Table<DType>& record, const int& i, const int& j, ChordSet& answer){$/;"	f	class:DP
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef int16_t flex_int16_t;$/;"	t	file:
 flex_int16_t	pa1/src/util/parser.cpp	/^typedef short int flex_int16_t;$/;"	t	file:
 flex_int32_t	pa1/src/util/parser.cpp	/^typedef int flex_int32_t;$/;"	t	file:
@@ -937,13 +943,15 @@ mergeMem	pa1/plot/time.py	/^mergeMem = np.array([0.20507, 1.424468, 13.027761, 2
 mergeTime	pa1/plot/mem.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$/;"	v
 mergeTime	pa1/plot/time.py	/^mergeTime = np.array([0.016, 0.037, 0.203, 0.547])$/;"	v
 operator ()	pa1/src/util/database.h	/^inline string DataBase::operator() (const int& n){$/;"	f	class:DataBase
-operator ()	pa2/src/util/table.hpp	/^const DType& Table<DataType>::operator() (const int& i, const int& j){$/;"	f	class:Table
+operator ()	pa2/src/util/table.hpp	/^inline DType& Table<DataType>::operator() (const int& i, const int& j){$/;"	f	class:Table
+operator ()	pa2/src/util/table.hpp	/^inline const DType& Table<DataType>::operator() (const int& i, const int& j) const{$/;"	f	class:Table
 operator <	pa2/src/util/chordSet.hpp	/^inline bool Chord::operator< (const Chord& rhs) const{$/;"	f	class:Chord
 partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j, int& q){$/;"	f	class:QuickSorter
 print	pa2/src/util/chordSet.cpp	/^void Chord::print() const{$/;"	f	class:Chord
 print	pa2/src/util/chordSet.cpp	/^void ChordSet::print(){$/;"	f	class:ChordSet
 print	pa2/src/util/table.cpp	/^void Table<DataType>::print(){$/;"	f	class:Table
-push	pa2/src/util/chordSet.cpp	/^void ChordSet::push(const DType& x1, const DType& x2){$/;"	f	class:ChordSet
+push1	pa2/src/util/chordSet.cpp	/^void ChordSet::push1(const DType& x1, const DType& x2){$/;"	f	class:ChordSet
+push2	pa2/src/util/chordSet.cpp	/^void ChordSet::push2(const DType& x1, const DType& x2){$/;"	f	class:ChordSet
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
@@ -952,7 +960,7 @@ quickMem	pa1/plot/mem.py	/^quickMem = np.array([0.147886, 0.937044, 7.622129, 16
 quickMem	pa1/plot/time.py	/^quickMem = np.array([0.147886, 0.937044, 7.622129, 16.160612])$/;"	v
 quickTime	pa1/plot/mem.py	/^quickTime = np.array([0.016, 0.039, 0.265, 0.54])$/;"	v
 quickTime	pa1/plot/time.py	/^quickTime = np.array([0.016, 0.039, 0.265, 0.54])$/;"	v
-read	pa2/src/io/io.cpp	/^void IO::read(const string&, ChordSet&){$/;"	f	class:IO
+read	pa2/src/io/io.cpp	/^void IO::read(const string& fileName, int& n, ChordSet& chordSet){$/;"	f	class:IO
 smallerthan	pa1/src/util/database.h	/^inline bool DataBase::smallerthan(const int& lhs, const int& rhs){$/;"	f	class:DataBase
 sort	pa1/src/sorter/heapSort.cpp	/^int* HeapSorter::sort(DataBase& database){$/;"	f	class:HeapSorter
 sort	pa1/src/sorter/insertionSort.cpp	/^int* InsertionSorter::sort(DataBase& database){$/;"	f	class:InsertionSorter
@@ -966,7 +974,9 @@ swap	pa1/src/sorter/quickSort.h	/^inline void QuickSorter::swap(const int& i, co
 unput	pa1/src/util/parser.cpp	167;"	d	file:
 volatile	pa2/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	11;"	d	file:
 write	pa1/src/util/database.cpp	/^void DataBase::write(const int* data, char* filename){$/;"	f	class:DataBase
-write	pa2/src/io/io.cpp	/^void IO::write(const string&, const int& n, Table<DType>& table){$/;"	f	class:IO
+write	pa2/src/io/io.cpp	/^void IO::write(const string& fileName, ChordSet& answer){$/;"	f	class:IO
+write	pa2/src/util/chordSet.cpp	/^void Chord::write(FILE* file) const{$/;"	f	class:Chord
+write	pa2/src/util/chordSet.cpp	/^void ChordSet::write(FILE* file){$/;"	f	class:ChordSet
 x	pa1/plot/mem.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
 x	pa1/plot/time.py	/^x = np.array([1362, 9216, 82360, 185462])$/;"	v
 yy_accept	pa1/src/util/parser.cpp	/^static yyconst flex_int16_t yy_accept[13] =$/;"	v	file:

@@ -6,11 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/home/kevin/Github/Algorithm/pa2/src/dp/dp.hpp
+dpGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/dp/dpGlobal.hpp
+../util/chordSet.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+../util/table.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/table.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/dp/dpGlobal.hpp
+../misc/global.hpp
+/home/kevin/Github/Algorithm/pa2/src/misc/global.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/io/io.hpp
+ioGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/io/ioGlobal.hpp
+../util/table.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/table.hpp
+../util/chordSet.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/io/ioGlobal.hpp
+../misc/global.hpp
+/home/kevin/Github/Algorithm/pa2/src/misc/global.hpp
+
 /home/kevin/Github/Algorithm/pa2/src/main/main.cpp
 mainGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/main/mainGlobal.hpp
+../dp/dp.hpp
+/home/kevin/Github/Algorithm/pa2/src/dp/dp.hpp
+../io/io.hpp
+/home/kevin/Github/Algorithm/pa2/src/io/io.hpp
 ../util/chordSet.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+../util/table.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/table.hpp
 
 /home/kevin/Github/Algorithm/pa2/src/main/mainGlobal.hpp
 ../misc/global.hpp
@@ -33,6 +63,10 @@ memory
 -
 
 /home/kevin/Github/Algorithm/pa2/src/util/chordSet.hpp
+utilGlobal.hpp
+/home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
+
+/home/kevin/Github/Algorithm/pa2/src/util/table.hpp
 utilGlobal.hpp
 /home/kevin/Github/Algorithm/pa2/src/util/utilGlobal.hpp
 

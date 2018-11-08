@@ -8,7 +8,8 @@
 class IO{
 public:
     IO(){};
-    void read   (const string&, ChordSet&);
-    void write  (const string&, const int& n, Table<DType>&);
+    void read   (const string&, int&, ChordSet&);
+    void write  (const string&, ChordSet&);
+private:
 };
 #endif

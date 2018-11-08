@@ -13,6 +13,7 @@
 using namespace std;
 
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
+#pragma GCC diagnostic ignored "-Wunused-result"
 
 typedef int DType;
 
