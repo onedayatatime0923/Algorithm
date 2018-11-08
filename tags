@@ -942,7 +942,7 @@ operator <	pa2/src/util/chordSet.hpp	/^inline bool Chord::operator< (const Chord
 partition	pa1/src/sorter/quickSort.cpp	/^void QuickSorter::partition(const int& i, const int& j, int& q){$/;"	f	class:QuickSorter
 print	pa2/src/util/chordSet.cpp	/^void Chord::print() const{$/;"	f	class:Chord
 print	pa2/src/util/chordSet.cpp	/^void ChordSet::print(){$/;"	f	class:ChordSet
-print	pa2/src/util/table.cpp	/^Table<DataType>::print(){$/;"	f	class:Table
+print	pa2/src/util/table.cpp	/^void Table<DataType>::print(){$/;"	f	class:Table
 push	pa2/src/util/chordSet.cpp	/^void ChordSet::push(const DType& x1, const DType& x2){$/;"	f	class:ChordSet
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
 qnxnto	pa1/build/CMakeFiles/3.5.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v

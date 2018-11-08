@@ -18,7 +18,7 @@ private:
 
 template <class DataType>
 const DType& Table<DataType>::operator() (const int& i, const int& j){
-    return _data[i,j+1];
+    return _data[i,j - i + 1];
 };
 
 #endif

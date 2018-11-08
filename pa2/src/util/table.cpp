@@ -17,10 +17,10 @@ Table<DataType>::~Table(){
     delete [] _data;
 };
 template <class DataType>
-Table<DataType>::print(){
-    for(int i = 0;i < 2 * n + 1;++i){
-        for(int j = 0;i < 2 * n + 1;++i){
-        *(_data + i) = new DType[2 * n + 1 - i];
+void Table<DataType>::print(){
+    for(int i = 0;i < 2 * _n + 1;++i){
+        for(int j = -1 + i;j < 2 * _n;++j){
+        }
     }
 
 };
