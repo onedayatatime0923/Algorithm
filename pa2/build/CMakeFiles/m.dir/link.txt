@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O3 -std=c++11  -rdynamic CMakeFiles/m.dir/src/main/main.cpp.o  -o ../mps ../lib/libSRCLIB.a ../lib/libSRCLIB.a ../lib/libSRCLIB.a 

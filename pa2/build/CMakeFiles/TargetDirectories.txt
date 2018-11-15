@@ -1,0 +1,4 @@
+/home/kevin/Github/Algorithm/pa2/build/CMakeFiles/rebuild_cache.dir
+/home/kevin/Github/Algorithm/pa2/build/CMakeFiles/edit_cache.dir
+/home/kevin/Github/Algorithm/pa2/build/CMakeFiles/SRCLIB.dir
+/home/kevin/Github/Algorithm/pa2/build/CMakeFiles/m.dir
