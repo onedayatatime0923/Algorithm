@@ -24,7 +24,6 @@ void DataBase::write(const int* data, char* filename){
   if(!f){
     cout<<"Fail to open file: "<<filename<<endl;
   }
-  cout<<"File Descriptor: "<<f<<endl;
   f<< _size << endl;
   for(int i = 0;i < _size; ++i){
     f<< _data[data[i]] << ' ' << data[i] + 1 << endl;
