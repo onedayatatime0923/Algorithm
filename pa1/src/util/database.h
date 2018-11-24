@@ -29,7 +29,7 @@ class DataBase{
     int* sort(int* sortFunc(string* data, int& size));
 
   private:
-    inline string int2string(const int& n);
+    string int2string(const int& n);
 
     int _size;
     string* _data;
