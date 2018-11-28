@@ -2,7 +2,7 @@
 #ifndef _DEFINE_TABLE_
 #define _DEFINE_TABLE_
 
-#include "utilGlobal.hpp"
+#include "global.hpp"
 
 template <class DataType>
 class Table{

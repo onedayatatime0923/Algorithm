@@ -9,8 +9,6 @@ set(BASEPATH    ${PROJECT_SOURCE_DIR})
 set(INCPATH     ${BASEPATH}/include)
 set(LIBPATH     ${BASEPATH}/lib)
 SET(SRCPATH     ${BASEPATH}/src)
-set(PACK        dp io misc util)
-set(MAIN        main)
 ############################################################
 # Create compile flags
 ############################################################
@@ -47,20 +45,11 @@ file(GLOB LIB ${LIBPATH}/*.a)
 # Create SRCLIB       
 ############################################################
 # SRC
-foreach(i  ${PACK})
-  file(GLOB FILE ${SRCPATH}/${i}/*.cpp)
-  set(SRC ${SRC} ${FILE})
-endforeach() 
-add_library(SRCLIB STATIC ${SRC})
-target_link_libraries(SRCLIB PRIVATE ${LIB})
+file(GLOB SRC ${SRCPATH}/*.cpp)
 ############################################################
 # Create an executable
 ############################################################
-# MAINPATH
-set(MAINPATH ${SRCPATH}/${MAIN}/)
 # Add an executable with the above sources
-add_executable(m ${MAINPATH}main.cpp)
-# link the new target with the target
-target_link_libraries(m PRIVATE ${LIB} SRCLIB)
+add_executable(m ${SRC})
 # link the new hello_library target with the hello_binary target
 set_target_properties(m PROPERTIES OUTPUT_NAME mps)

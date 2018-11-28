@@ -1,10 +1,10 @@
 
 #ifndef _DEFINE_IO_
 #define _DEFINE_IO_
-#include "ioGlobal.hpp"
-#include "../util/table.hpp"
-#include "../util/chordTable.hpp"
-#include "../util/chordVec.hpp"
+#include "global.hpp"
+#include "table.hpp"
+#include "chordTable.hpp"
+#include "chordVec.hpp"
 
 class IO{
 public:

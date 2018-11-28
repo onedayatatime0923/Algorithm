@@ -2,7 +2,7 @@
 #ifndef _DEFINE_CHORDTABLE_
 #define _DEFINE_CHORDTABLE_
 
-#include "utilGlobal.hpp"
+#include "global.hpp"
 
 class ChordTable{
 public:

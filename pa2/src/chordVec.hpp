@@ -2,7 +2,7 @@
 #ifndef _DEFINE_CHORDVEC_
 #define _DEFINE_CHORDVEC_
 
-#include "utilGlobal.hpp"
+#include "global.hpp"
 
 class Chord{
 public:

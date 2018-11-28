@@ -15,7 +15,7 @@
 7. 編譯方式說明：        	
    主程式：pa1/src/
 	 請創建build資料夾
-     mkdr build
+     mkdir build
    在build目錄下，鍵入cmake指令
      cmake ..
    在build目錄下，鍵入make指令

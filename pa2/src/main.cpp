@@ -1,11 +1,11 @@
 
-#include "mainGlobal.hpp"
-#include "../dp/dp.hpp"
-#include "../io/io.hpp"
-#include "../io/io.hpp"
-#include "../util/chordTable.hpp"
-#include "../util/chordVec.hpp"
-#include "../util/table.hpp"
+#include "global.hpp"
+#include "dp.hpp"
+#include "io.hpp"
+#include "io.hpp"
+#include "chordTable.hpp"
+#include "chordVec.hpp"
+#include "table.hpp"
 
 int main(int argc, const char **argv){
     int n;
