@@ -1,0 +1,469 @@
+net 0 ending position error
+net 0 disconnected between routes 5 and 6
+net 0 route 6 is invalid (every route must be 1-tile step)
+net 0 route 6 is invalid (out of boundary)
+net 6 starting position error
+net 6 ending position error
+net 2 starting position error
+net 2 route 1 is invalid (every route must be 1-tile step)
+net 2 disconnected between routes 1 and 2
+net 2 ending position error
+net 7 starting position error
+net 7 route 1 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 1 and 2
+net 7 route 2 is invalid (every route must be 1-tile step)
+net 7 route 2 is invalid (out of boundary)
+net 7 disconnected between routes 2 and 3
+net 7 ending position error
+net 7 routed more than once
+net 7 starting position error
+net 7 route 1 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 1 and 2
+net 7 route 2 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 2 and 3
+net 7 ending position error
+net 7 routed more than once
+net 7 starting position error
+net 7 route 1 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 1 and 2
+net 7 route 2 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 2 and 3
+net 7 route 3 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 3 and 4
+net 7 route 4 is invalid (every route must be 1-tile step)
+net 7 ending position error
+net 7 disconnected between routes 4 and 5
+net 7 routed more than once
+net 7 starting position error
+net 7 route 1 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 1 and 2
+net 7 route 2 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 2 and 3
+net 7 route 3 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 3 and 4
+net 7 route 4 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 4 and 5
+net 7 route 5 is invalid (every route must be 1-tile step)
+net 7 disconnected between routes 5 and 6
+net 7 ending position error
+net 7 routed more than once
+net 7 ending position error
+net 7 disconnected between routes 2 and 3
+net 7 route 3 is invalid (every route must be 1-tile step)
+net 0 routed more than once
+net 0 starting position error
+net 0 route 1 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 1 and 2
+net 0 route 2 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 2 and 3
+net 0 route 3 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 3 and 4
+net 0 route 4 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 4 and 5
+net 0 route 5 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 5 and 6
+net 0 route 6 is invalid (every route must be 1-tile step)
+net 0 route 6 is invalid (out of boundary)
+net 0 disconnected between routes 6 and 7
+net 0 ending position error
+net 0 routed more than once
+net 0 starting position error
+net 0 route 1 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 1 and 2
+net 0 route 2 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 2 and 3
+net 0 route 3 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 3 and 4
+net 0 route 4 is invalid (every route must be 1-tile step)
+net 0 ending position error
+net 0 disconnected between routes 4 and 5
+net 0 route 5 is invalid (every route must be 1-tile step)
+net 3 starting position error
+net 3 route 1 is invalid (every route must be 1-tile step)
+net 3 route 1 is invalid (out of boundary)
+net 3 ending position error
+net 3 disconnected between routes 1 and 2
+net 3 route 2 is invalid (every route must be 1-tile step)
+net 8 starting position error
+net 8 disconnected between routes 3 and 4
+net 8 route 4 is invalid (every route must be 1-tile step)
+net 8 route 4 is invalid (out of boundary)
+net 8 disconnected between routes 4 and 5
+net 8 route 5 is invalid (every route must be 1-tile step)
+net 8 disconnected between routes 5 and 6
+net 8 route 6 is invalid (every route must be 1-tile step)
+net 8 disconnected between routes 6 and 7
+net 8 route 7 is invalid (every route must be 1-tile step)
+net 8 ending position error
+net 8 disconnected between routes 7 and 8
+net 8 route 8 is invalid (every route must be 1-tile step)
+net 4 starting position error
+net 4 route 1 is invalid (every route must be 1-tile step)
+net 4 route 1 is invalid (out of boundary)
+net 4 disconnected between routes 1 and 2
+net 4 route 2 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 2 and 3
+net 4 route 3 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 3 and 4
+net 4 route 4 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 4 and 5
+net 4 route 5 is invalid (every route must be 1-tile step)
+net 4 ending position error
+net 4 disconnected between routes 5 and 6
+net 4 route 6 is invalid (every route must be 1-tile step)
+net 2 routed more than once
+net 2 starting position error
+net 2 disconnected between routes 3 and 4
+net 2 route 4 is invalid (every route must be 1-tile step)
+net 2 route 4 is invalid (out of boundary)
+net 2 disconnected between routes 4 and 5
+net 2 route 5 is invalid (every route must be 1-tile step)
+net 2 ending position error
+net 2 disconnected between routes 5 and 6
+net 2 route 6 is invalid (every route must be 1-tile step)
+net 2 routed more than once
+net 2 starting position error
+net 2 disconnected between routes 1 and 2
+net 2 route 2 is invalid (every route must be 1-tile step)
+net 2 route 2 is invalid (out of boundary)
+net 2 disconnected between routes 2 and 3
+net 2 route 3 is invalid (every route must be 1-tile step)
+net 2 ending position error
+net 2 disconnected between routes 3 and 4
+net 2 route 4 is invalid (every route must be 1-tile step)
+net 3 routed more than once
+net 3 starting position error
+net 3 disconnected between routes 3 and 4
+net 3 route 4 is invalid (every route must be 1-tile step)
+net 3 route 4 is invalid (out of boundary)
+net 3 disconnected between routes 4 and 5
+net 3 route 5 is invalid (every route must be 1-tile step)
+net 3 ending position error
+net 3 disconnected between routes 5 and 6
+net 3 route 6 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 ending position error
+net 5 starting position error
+net 5 ending position error
+net 5 route 1 is invalid (every route must be 1-tile step)
+net 5 route 1 is invalid (out of boundary)
+net 0 routed more than once
+net 0 starting position error
+net 0 route 1 is invalid (every route must be 1-tile step)
+net 0 disconnected between routes 1 and 2
+net 0 route 2 is invalid (every route must be 1-tile step)
+net 0 ending position error
+net 0 disconnected between routes 2 and 3
+net 0 route 3 is invalid (every route must be 1-tile step)
+net 4 routed more than once
+net 4 starting position error
+net 4 ending position error
+net 18 ending position error
+net 18 disconnected between routes 9 and 10
+net 18 route 10 is invalid (every route must be 1-tile step)
+net 18 route 10 is invalid (out of boundary)
+net 8 routed more than once
+net 8 starting position error
+net 8 ending position error
+net 8 routed more than once
+net 8 starting position error
+net 8 route 1 is invalid (every route must be 1-tile step)
+net 8 ending position error
+net 8 disconnected between routes 1 and 2
+net 8 route 2 is invalid (every route must be 1-tile step)
+net 8 routed more than once
+net 8 starting position error
+net 8 disconnected between routes 1 and 2
+net 8 route 2 is invalid (every route must be 1-tile step)
+net 8 route 2 is invalid (out of boundary)
+net 8 disconnected between routes 2 and 3
+net 8 route 3 is invalid (every route must be 1-tile step)
+net 8 disconnected between routes 3 and 4
+net 8 route 4 is invalid (every route must be 1-tile step)
+net 8 ending position error
+net 8 disconnected between routes 4 and 5
+net 8 route 5 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 disconnected between routes 2 and 3
+net 6 route 3 is invalid (every route must be 1-tile step)
+net 6 route 3 is invalid (out of boundary)
+net 6 disconnected between routes 3 and 4
+net 6 route 4 is invalid (every route must be 1-tile step)
+net 6 ending position error
+net 6 disconnected between routes 4 and 5
+net 6 route 5 is invalid (every route must be 1-tile step)
+net 3 routed more than once
+net 3 starting position error
+net 3 disconnected between routes 4 and 5
+net 3 route 5 is invalid (every route must be 1-tile step)
+net 3 route 5 is invalid (out of boundary)
+net 3 disconnected between routes 5 and 6
+net 3 route 6 is invalid (every route must be 1-tile step)
+net 3 ending position error
+net 3 disconnected between routes 6 and 7
+net 3 route 7 is invalid (every route must be 1-tile step)
+net 5 routed more than once
+net 5 starting position error
+net 5 route 1 is invalid (every route must be 1-tile step)
+net 5 route 1 is invalid (out of boundary)
+net 5 disconnected between routes 1 and 2
+net 5 route 2 is invalid (every route must be 1-tile step)
+net 5 route 2 is invalid (out of boundary)
+net 5 disconnected between routes 2 and 3
+net 5 ending position error
+net 1 starting position error
+net 1 route 1 is invalid (every route must be 1-tile step)
+net 1 route 1 is invalid (out of boundary)
+net 1 disconnected between routes 1 and 2
+net 1 ending position error
+net 6 routed more than once
+net 6 starting position error
+net 6 ending position error
+net 6 route 1 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 ending position error
+net 6 routed more than once
+net 6 starting position error
+net 6 route 1 is invalid (every route must be 1-tile step)
+net 6 disconnected between routes 1 and 2
+net 6 route 2 is invalid (every route must be 1-tile step)
+net 6 route 2 is invalid (out of boundary)
+net 6 disconnected between routes 2 and 3
+net 6 ending position error
+net 4 routed more than once
+net 4 starting position error
+net 4 route 1 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 1 and 2
+net 4 route 2 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 2 and 3
+net 4 route 3 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 3 and 4
+net 4 route 4 is invalid (every route must be 1-tile step)
+net 4 route 4 is invalid (out of boundary)
+net 4 ending position error
+net 4 disconnected between routes 4 and 5
+net 4 routed more than once
+net 4 starting position error
+net 4 route 1 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 1 and 2
+net 4 route 2 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 2 and 3
+net 4 route 3 is invalid (every route must be 1-tile step)
+net 4 ending position error
+net 4 disconnected between routes 3 and 4
+net 4 route 4 is invalid (every route must be 1-tile step)
+net 4 route 4 is invalid (out of boundary)
+net 8 routed more than once
+net 8 starting position error
+net 8 ending position error
+net 8 route 1 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 ending position error
+net 6 routed more than once
+net 6 starting position error
+net 6 route 1 is invalid (every route must be 1-tile step)
+net 6 ending position error
+net 6 disconnected between routes 1 and 2
+net 6 route 2 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 disconnected between routes 1 and 2
+net 6 route 2 is invalid (every route must be 1-tile step)
+net 6 route 2 is invalid (out of boundary)
+net 6 disconnected between routes 2 and 3
+net 6 route 3 is invalid (every route must be 1-tile step)
+net 6 disconnected between routes 3 and 4
+net 6 route 4 is invalid (every route must be 1-tile step)
+net 6 ending position error
+net 6 disconnected between routes 4 and 5
+net 6 route 5 is invalid (every route must be 1-tile step)
+net 3 routed more than once
+net 3 starting position error
+net 3 disconnected between routes 2 and 3
+net 3 route 3 is invalid (every route must be 1-tile step)
+net 3 route 3 is invalid (out of boundary)
+net 3 disconnected between routes 3 and 4
+net 3 route 4 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 4 and 5
+net 3 route 5 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 5 and 6
+net 3 route 6 is invalid (every route must be 1-tile step)
+net 3 ending position error
+net 3 disconnected between routes 6 and 7
+net 3 route 7 is invalid (every route must be 1-tile step)
+net 1 routed more than once
+net 1 starting position error
+net 1 disconnected between routes 1 and 2
+net 1 route 2 is invalid (every route must be 1-tile step)
+net 1 route 2 is invalid (out of boundary)
+net 1 disconnected between routes 2 and 3
+net 1 route 3 is invalid (every route must be 1-tile step)
+net 1 disconnected between routes 3 and 4
+net 1 route 4 is invalid (every route must be 1-tile step)
+net 1 ending position error
+net 1 disconnected between routes 4 and 5
+net 1 route 5 is invalid (every route must be 1-tile step)
+net 2 routed more than once
+net 2 starting position error
+net 2 ending position error
+net 2 disconnected between routes 3 and 4
+net 2 route 4 is invalid (every route must be 1-tile step)
+net 2 route 4 is invalid (out of boundary)
+net 5 routed more than once
+net 5 starting position error
+net 5 ending position error
+net 5 routed more than once
+net 5 starting position error
+net 5 route 1 is invalid (every route must be 1-tile step)
+net 5 disconnected between routes 1 and 2
+net 5 route 2 is invalid (every route must be 1-tile step)
+net 5 disconnected between routes 2 and 3
+net 5 route 3 is invalid (every route must be 1-tile step)
+net 5 ending position error
+net 5 disconnected between routes 3 and 4
+net 5 route 4 is invalid (every route must be 1-tile step)
+net 5 route 4 is invalid (out of boundary)
+net 2 routed more than once
+net 2 starting position error
+net 2 ending position error
+net 2 route 1 is invalid (every route must be 1-tile step)
+net 2 routed more than once
+net 2 starting position error
+net 2 ending position error
+net 3 routed more than once
+net 3 starting position error
+net 3 route 1 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 1 and 2
+net 3 route 2 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 2 and 3
+net 3 route 3 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 3 and 4
+net 3 route 4 is invalid (every route must be 1-tile step)
+net 3 route 4 is invalid (out of boundary)
+net 3 ending position error
+net 3 disconnected between routes 4 and 5
+net 4 routed more than once
+net 4 starting position error
+net 4 route 1 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 1 and 2
+net 4 route 2 is invalid (every route must be 1-tile step)
+net 4 disconnected between routes 2 and 3
+net 4 route 3 is invalid (every route must be 1-tile step)
+net 4 ending position error
+net 4 disconnected between routes 3 and 4
+net 4 route 4 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 route 1 is invalid (every route must be 1-tile step)
+net 6 route 1 is invalid (out of boundary)
+net 6 disconnected between routes 1 and 2
+net 6 route 2 is invalid (every route must be 1-tile step)
+net 6 disconnected between routes 2 and 3
+net 6 route 3 is invalid (every route must be 1-tile step)
+net 6 disconnected between routes 3 and 4
+net 6 route 4 is invalid (every route must be 1-tile step)
+net 6 disconnected between routes 4 and 5
+net 6 route 5 is invalid (every route must be 1-tile step)
+net 6 disconnected between routes 5 and 6
+net 6 route 6 is invalid (every route must be 1-tile step)
+net 6 ending position error
+net 6 disconnected between routes 6 and 7
+net 6 route 7 is invalid (every route must be 1-tile step)
+net 0 routed more than once
+net 0 starting position error
+net 0 ending position error
+net 36 ending position error
+net 36 disconnected between routes 2 and 3
+net 36 route 3 is invalid (every route must be 1-tile step)
+net 36 route 3 is invalid (out of boundary)
+net 7 routed more than once
+net 7 starting position error
+net 7 ending position error
+net 6 routed more than once
+net 6 starting position error
+net 6 ending position error
+net 6 route 1 is invalid (every route must be 1-tile step)
+net 4 routed more than once
+net 4 starting position error
+net 4 ending position error
+net 3 routed more than once
+net 3 starting position error
+net 3 ending position error
+net 3 route 1 is invalid (every route must be 1-tile step)
+net 1 routed more than once
+net 1 starting position error
+net 1 ending position error
+net 0 routed more than once
+net 0 starting position error
+net 0 ending position error
+net 0 route 1 is invalid (every route must be 1-tile step)
+net 0 routed more than once
+net 0 starting position error
+net 0 route 1 is invalid (every route must be 1-tile step)
+net 0 route 1 is invalid (out of boundary)
+net 0 disconnected between routes 1 and 2
+net 0 route 2 is invalid (every route must be 1-tile step)
+net 0 ending position error
+net 0 disconnected between routes 2 and 3
+net 0 route 3 is invalid (every route must be 1-tile step)
+net 7 routed more than once
+net 7 starting position error
+net 7 ending position error
+net 5 routed more than once
+net 5 starting position error
+net 5 route 1 is invalid (every route must be 1-tile step)
+net 5 disconnected between routes 1 and 2
+net 5 route 2 is invalid (every route must be 1-tile step)
+net 5 disconnected between routes 2 and 3
+net 5 route 3 is invalid (every route must be 1-tile step)
+net 5 ending position error
+net 5 disconnected between routes 3 and 4
+net 5 route 4 is invalid (every route must be 1-tile step)
+net 5 route 4 is invalid (out of boundary)
+net 3 routed more than once
+net 3 starting position error
+net 3 route 1 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 1 and 2
+net 3 route 2 is invalid (every route must be 1-tile step)
+net 3 disconnected between routes 2 and 3
+net 3 route 3 is invalid (every route must be 1-tile step)
+net 3 ending position error
+net 3 disconnected between routes 3 and 4
+net 3 route 4 is invalid (every route must be 1-tile step)
+net 6 routed more than once
+net 6 starting position error
+net 6 ending position error
+net 6 disconnected between routes 1 and 2
+net 9 is missing 
+net 10 is missing 
+net 11 is missing 
+net 12 is missing 
+net 13 is missing 
+net 14 is missing 
+net 15 is missing 
+net 16 is missing 
+net 17 is missing 
+net 19 is missing 
+net 20 is missing 
+net 21 is missing 
+net 22 is missing 
+net 23 is missing 
+net 24 is missing 
+net 25 is missing 
+net 26 is missing 
+net 27 is missing 
+net 28 is missing 
+net 29 is missing 
+net 30 is missing 
+net 31 is missing 
+net 32 is missing 
+net 33 is missing 
+net 34 is missing 
+net 35 is missing 
+net 37 is missing 
+net 38 is missing 
+net 39 is missing 

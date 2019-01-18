@@ -1,0 +1,11 @@
+
+tags
+.*
+!.gitignore
+bin
+build
+include
+lib/libpack.a
+*/.*
+*/*/.*
+*/*/*/.*
